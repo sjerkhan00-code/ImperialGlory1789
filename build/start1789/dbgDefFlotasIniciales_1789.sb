@@ -1,0 +1,156 @@
+
+############################################################################################
+# 1789 world: additional starting fleets (build/start1789/gen_start1789.py)
+# Append these blocks / entries to Game/GameModes/Gestion/dbgDefFlotasIniciales.sb.
+# Players that already have a block (GB, Spain, Portugal, France, Russia, Batavia) need the
+# entries merged INTO their existing block (one block per JUG_ key).
+############################################################################################
+
+.JUG_GRAN_BRETANYA
+[
+ [ # Royal Navy East Indies squadron, Madras
+  .NOMBRE        "Fleet ING East Indies"
+  .PROVINCIA     S_COROMANDEL_COAST
+  .BARCO_INICIAL FRAGATA
+  .BARCOS        [ CORBETA ]
+ ]
+ [ # EIC Bombay Marine
+  .NOMBRE        "Fleet ING Bombay Marine"
+  .PROVINCIA     S_MALABAR_COAST
+  .BARCO_INICIAL CORBETA
+ ]
+ [ # HMS Sirius of the First Fleet
+  .NOMBRE        "Fleet ING Sirius"
+  .PROVINCIA     S_COAST_OF_NEW_SOUTH_WALES
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_BATAVIA
+[
+ [ # VOC and Dutch navy at Batavia
+  .NOMBRE        "Fleet BAT Batavia"
+  .PROVINCIA     S_JAVA_SEA
+  .BARCO_INICIAL FRAGATA
+  .BARCOS        [ CORBETA ]
+ ]
+]
+
+.JUG_PORTUGAL
+[
+ [ # Angola station
+  .NOMBRE        "Fleet POR Luanda"
+  .PROVINCIA     S_COAST_OF_ANGOLA
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_ESPANYA
+[
+ [ # Manila galleon escort
+  .NOMBRE        "Fleet ESP Manila"
+  .PROVINCIA     S_SOUTH_CHINA_SEA__NORTH
+  .BARCO_INICIAL FRAGATA
+ ]
+]
+
+.JUG_FRANCIA
+[
+ [ # Station des Indes (Ile de France)
+  .NOMBRE        "Fleet FRA Indes"
+  .PROVINCIA     S_INDIAN_OCEAN
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_RUSIA
+[
+ [ # Okhotsk flotilla (Billings expedition)
+  .NOMBRE        "Fleet RUS Okhotsk"
+  .PROVINCIA     S_SEA_OF_OKHOTSK
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_OMAN
+[
+ [ # Omani navy, strongest native fleet of the Indian Ocean
+  .NOMBRE        "Fleet OMA I"
+  .PROVINCIA     S_PERSIAN_GULF
+  .BARCO_INICIAL FRAGATA
+  .BARCOS        [ CORBETA ]
+ ]
+ [ # Zanzibar dhows
+  .NOMBRE        "Fleet OMA II"
+  .PROVINCIA     S_COAST_OF_ZANZIBAR
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_QING
+[
+ [ # Guangdong war junks
+  .NOMBRE        "Fleet QIN I"
+  .PROVINCIA     S_SOUTH_CHINA_SEA__NORTH
+  .BARCO_INICIAL CORBETA
+ ]
+ [ # Fujian fleet (Taiwan campaign 1787-88)
+  .NOMBRE        "Fleet QIN II"
+  .PROVINCIA     S_FORMOSA_STRAIT
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_JAPAN
+[
+ [ # Coastal guard boats (sakoku)
+  .NOMBRE        "Fleet JAP I"
+  .PROVINCIA     S_COAST_OF_JAPAN
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_JOSEON
+[
+ [ # Joseon navy, Busan
+  .NOMBRE        "Fleet JOS I"
+  .PROVINCIA     S_SEA_OF_JAPAN
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_BURMA
+[
+ [ # Irrawaddy war boats
+  .NOMBRE        "Fleet BUR I"
+  .PROVINCIA     S_ANDAMAN_SEA
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_SIAM
+[
+ [ # Royal junks of Bangkok
+  .NOMBRE        "Fleet SIA I"
+  .PROVINCIA     S_GULF_OF_SIAM
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_NGUYEN
+[
+ [ # Nguyen Anh's European-rigged ships
+  .NOMBRE        "Fleet NGU I"
+  .PROVINCIA     S_SOUTH_CHINA_SEA__SOUTH
+  .BARCO_INICIAL CORBETA
+ ]
+]
+
+.JUG_MALAYA
+[
+ [ # Bugis/Johor prahus
+  .NOMBRE        "Fleet MAL I"
+  .PROVINCIA     S_STRAIT_OF_MALACCA
+  .BARCO_INICIAL CORBETA
+ ]
+]

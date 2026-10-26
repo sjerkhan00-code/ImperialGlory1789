@@ -1,0 +1,27 @@
+{
+ "folder": "NBTaiga",
+ "lvl": "NBTaiga.lvl",
+ "minimap": "NBTaiga.tga",
+ "minimap_red": "NBTaiga.tga",
+ "template": "21",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_TAIGA_ATACANTE_1": "Snow, fir forest without end and a frozen river. Advance through the clearings; the ice will carry our men, but no horse can charge on it.",
+  "LTEXT_TEXTUISECUENCIAS_TAIGA_ATACANTE_2": "Beyond the river stands their wooden fort behind its palisade. Take it.",
+  "LTEXT_TEXTUISECUENCIAS_TAIGA_DEFENSOR_1": "The enemy comes out of the forest to the south. Meet them at the river.",
+  "LTEXT_TEXTUISECUENCIAS_TAIGA_DEFENSOR_2": "Hold the fort behind its palisade. Out here it is the only shelter for a hundred miles."
+ },
+ "provinces": [
+  "URAL",
+  "SIBERIA",
+  "W_YENISEI",
+  "W_YAKUTSK",
+  "W_OKHOTSK",
+  "W_KAMCHATKA",
+  "W_AMUR",
+  "W_SAKHALIN"
+ ],
+ "objective_key": "EGIPTO",
+ "preview_key": "KIEV",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py taiga"
+}

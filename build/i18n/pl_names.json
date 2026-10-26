@@ -1,0 +1,25 @@
+{
+ "Management\\TextNombresFlotas\\TextFlotasArabes.sb": {
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PERSIA": "Flota perska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ARABIA": "Flota arabska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_SHEIKHS": "Flota arabska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_TURKESTAN": "Flota Turkiestanu%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_CHECHNYA": "Flota czeczeńska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_QING": "Flota chińska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_JAPAN": "Flota japońska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_MARATHA": "Flota Marathów%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ETHIOPIA": "Flota etiopska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_INDEPENDENT": "Flota wschodnia%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PRINCES": "Flota indyjska%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_NILE": "Flota Nilu%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PACIFIC": "Flota Pacyfiku%s"
+ },
+ "Management\\TextHerederos.sb": {
+  "LTEXT_HEREDERO_JUG_INDEPENDENT_F_1": "Królewna Hyeon",
+  "LTEXT_HEREDERO_JUG_SHEIKHS_F_1": "Królewna Aisha",
+  "LTEXT_HEREDERO_JUG_NILE_F_1": "Królewna Ama",
+  "LTEXT_HEREDERO_JUG_NILE_M_1": "Książę Kwaku",
+  "LTEXT_HEREDERO_JUG_PACIFIC_F_1": "Królewna Rangi",
+  "LTEXT_HEREDERO_JUG_PACIFIC_M_1": "Książę Ruatara"
+ }
+}

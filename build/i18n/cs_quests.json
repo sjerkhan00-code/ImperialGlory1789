@@ -1,0 +1,29 @@
+{
+ "Management\\TextQuests.sb": {
+  "LTEXT_100000_HIJOS_SAN_LUIS": "Condéova armáda",
+  "LTEXT_DESC_SIMON_BOLIVAR": "Naši generálové naléhají na reformu armády, pane! Pokud se dohodneme na financování nového výcviku a taktiky, naučí nás metodám vedení války, které značně podpoří rozvoj našich armád.",
+  "LTEXT_DESC_EXPOSICION_UNIVERSAL": "Sjednotí-li se náš národ na společném úkolu uspořádat velkou výstavu našeho průmyslu a umění, naše renomé mezi jinými zeměmi během konání výstavy značně vzroste.",
+  "LTEXT_DESC_PAZ_AMIENS": "Pokud jiné národy přimějeme k tomu, aby podepsaly Jasský mír, budeme moci během tohoto mírového období posílit vojenskou infrastrukturu tak, abychom byli dobře připraveni na budoucí války.",
+  "LTEXT_DESC_100000_HIJOS_SAN_LUIS": "Pane, požádáme-li o pomoc roajalistické emigranty prince Condé, zmobilizujeme reakční síly v celé Evropě a všichni služebníci věrní našemu režimu se nám postaví po bok. Tato mise je vyhrazena pouze absolutním monarchiím.",
+  "LTEXT_EXPOSICION_UNIVERSAL": "Velká výstava",
+  "LTEXT_PAZ_AMIENS": "Jasský mír",
+  "LTEXT_SIMON_BOLIVAR": "Reforma vojsk",
+  "LTEXT_DESC_DECLARACION_DERECHOS_HUMANOS": "Staneme-li se první zemí, která vyhlásí Deklaraci práv člověka a občana, poddaní jiných impérií si uvědomí svou důležitost jako občané a povstanou proti svým vládcům. Tato mise je vyhrazena pouze republikám.",
+  "LTEXT_DECLARACION_DERECHOS_HUMANOS": "Deklarace práv člověka a občana",
+  "LTEXT_DESC_QUEST_FERROCARRIL": "Parní stroje brzy roztočí kola našich mlýnů a hamrů, pane! Nasaďme stroje Jamese Watta v každém městě naší velké země. Produkce dřeva a zboží v celém Impériu prudce vzroste a naše průmyslové metody se promění.",
+  "LTEXT_FERROCARRIL": "Parostroj",
+  "LTEXT_QUEST_COBRO_DECDERHUMANOS": "Obdrželi jsme odměnu za misi Deklarace práv člověka a občana, pane. Vysvobodili jsme z otroctví následující země: %s.",
+  "LTEXT_QUEST_COBRO_FERROCARRIL": "Obdrželi jsme odměnu za misi Parostroj, pane. Byly postaveny pily v následujících teritoriích: %s.",
+  "LTEXT_QUEST_COBRO_PAZAMIENS": "Obdrželi jsme odměnu za misi Jasský mír, pane. Byly postaveny moderní vojenské akademie v následujících teritoriích: %s.",
+  "LTEXT_QUEST_AJENO_100000HIJOS": "Stát %s naplnil misi Condéova armáda. Získal dva maršály, z nichž každý velí šesti jednotkám.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS": "Státu %s se podařilo splnit misi Deklarace práv člověka a občana a každé impérium přišlo o jednu zemi. My jsme přišli o zemi %s!",
+  "LTEXT_QUEST_AJENO_PAZAMIENS": "Státu %s se podařilo splnit misi Jasský mír. Zásluhou toho byly ve všech jeho hlavních městech postaveny moderní vojenské akademie.",
+  "LTEXT_QUEST_AJENO_SIMONBOLIVAR": "Státu %s se podařilo splnit misi Reforma vojsk. Všechny jeho základní pěší pluky byly povýšeny přesně o jednu úroveň a jejich stav byl doplněn na plný počet.",
+  "LTEXT_QUEST_AJENO_EXPOINTERNACIONAL": "Státu %s se podařilo splnit misi Velká výstava. Sympatie vůči tomuto impériu porostou ve všech zemích po celý rok.",
+  "LTEXT_QUEST_AJENO_FERROCARRIL": "Státu %s se podařilo splnit misi Parostroj. Zásluhou toho byly postaveny pily na všech jeho teritoriích.",
+  "LTEXT_QUEST_COBRO_100000_HIJOS": "Obdrželi jsme odměnu za misi Condéova armáda, pane. Získali jsme zdarma dva maršály, přičemž každý velí šesti jednotkám. Dobře toto nové vojsko využijte...",
+  "LTEXT_QUEST_COBRO_EXPOSICION": "Obdrželi jsme odměnu za misi Velká výstava, pane. Ode dneška se bude sympatie k našemu Impériu ve všech zemích (neutrálních i v impériích) zvyšovat o jeden a půl bodu za každý tah po celý rok (12 tahů).",
+  "LTEXT_QUEST_COBRO_SIMON_BOLIVAR": "Obdrželi jsme odměnu za misi Reforma vojsk, pane. Všechny naše základní pěší pluky byly povýšeny přesně o jednu úroveň a jejich stav byl doplněn na plný počet, a to bezplatně.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS_SINPAIS": "Státu %s se podařilo splnit misi Deklarace práv člověka a občana a každé impérium přišlo o jednu zemi. Protože nemáme neutrální země, naše Impérium to nezasáhlo."
+ }
+}

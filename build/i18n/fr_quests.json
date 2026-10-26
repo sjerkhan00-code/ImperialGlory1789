@@ -1,0 +1,29 @@
+{
+ "Management\\TextQuests.sb": {
+  "LTEXT_100000_HIJOS_SAN_LUIS": "Armée de Condé",
+  "LTEXT_DESC_SIMON_BOLIVAR": "Nos généraux réclament une réforme de l'armée, Mon Seigneur ! Si nous acceptons de financer une nouvelle ordonnance sur l'exercice et la tactique, ils nous transmettront des techniques de combat qui amélioreront considérablement les compétences de nos troupes.",
+  "LTEXT_DESC_EXPOSICION_UNIVERSAL": "Si nous unissons notre nation dans le projet d'une grande Exposition de notre industrie et de nos arts, notre réputation au sein de la communauté internationale sera décuplée pendant toute la durée de l'exposition.",
+  "LTEXT_DESC_PAZ_AMIENS": "Si nous parvenons à manipuler les autres nations pour leur faire signer le Traité de Jassy, nous pourrons profiter de cette période de paix pour renforcer notre infrastructure militaire et nous préparer ainsi aux guerres à venir.",
+  "LTEXT_DESC_100000_HIJOS_SAN_LUIS": "Mon Seigneur, en sollicitant l'aide des émigrés royalistes de Condé, nous allons mobiliser des forces de réaction à travers l'Europe, et tous les serviteurs fidèles à notre régime lutteront à nos côtés. Cette quête est réservée aux monarchies absolues.",
+  "LTEXT_EXPOSICION_UNIVERSAL": "Exposition",
+  "LTEXT_PAZ_AMIENS": "Traité de Jassy",
+  "LTEXT_SIMON_BOLIVAR": "Réforme de l'armée",
+  "LTEXT_DESC_DECLARACION_DERECHOS_HUMANOS": "Si nous devenons la première nation à proclamer la Déclaration des Droits de l'Homme, les sujets des autres empires prendront conscience de leur importance en tant que citoyens et se révolteront contre leurs gouvernants. Cette quête est réservée aux républiques.",
+  "LTEXT_DECLARACION_DERECHOS_HUMANOS": "Déclaration des Droits de l'Homme",
+  "LTEXT_DESC_QUEST_FERROCARRIL": "Les machines à vapeur feront bientôt tourner les roues de nos moulins et de nos forges, Sire ! Mettons les machines de James Watt au travail dans chaque ville de notre grande nation. La production de bois et de marchandises de notre empire en sera grandement accrue et nos méthodes industrielles seront transformées.",
+  "LTEXT_FERROCARRIL": "Machine à vapeur",
+  "LTEXT_QUEST_COBRO_DECDERHUMANOS": "Nous avons reçu notre récompense pour la quête de la Déclaration des Droits de l'Homme. Nous avons libéré les nations suivantes de l'esclavage : %s.",
+  "LTEXT_QUEST_COBRO_FERROCARRIL": "Nous avons reçu notre récompense pour la quête de la Machine à vapeur. Des scieries ont été bâties dans les territoires suivants : %s.",
+  "LTEXT_QUEST_COBRO_PAZAMIENS": "Nous avons reçu notre récompense pour la quête du Traité de Jassy. Une académie militaire supérieure a été construite dans les territoires suivants : %s.",
+  "LTEXT_QUEST_AJENO_100000HIJOS": "%s : cette puissance a accompli la quête de l'Armée de Condé. Sa récompense est de deux maréchaux commandant chacun six unités.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS": "%s : cette puissance a accompli la quête de la Déclaration des Droits de l'Homme. Chaque empire a perdu le contrôle d'un pays. Nous avons nous aussi perdu un territoire (%s) !",
+  "LTEXT_QUEST_AJENO_PAZAMIENS": "%s : cette puissance a accompli la quête du Traité de Jassy. En conséquence, une académie militaire supérieure a été bâtie dans toutes ses capitales.",
+  "LTEXT_QUEST_AJENO_SIMONBOLIVAR": "%s a accompli la quête de la Réforme de l'armée. Tous ses régiments d'infanterie de base ont été améliorés en régiments de la classe supérieure, et ses rangs sont désormais au complet.",
+  "LTEXT_QUEST_AJENO_EXPOINTERNACIONAL": "%s : cette puissance a accompli la quête de l'Exposition. Cette nation verra le sentiment d'Amitié à son égard augmenter dans tous les pays pendant une année entière.",
+  "LTEXT_QUEST_AJENO_FERROCARRIL": "%s : cette puissance a accompli la quête de la Machine à vapeur. En conséquence, des scieries ont été bâties dans tous ses territoires.",
+  "LTEXT_QUEST_COBRO_100000_HIJOS": "Nous avons reçu notre récompense pour la quête de l'Armée de Condé. Deux maréchaux à la tête de six unités chacun viennent de nous rejoindre sans la moindre contrepartie financière ! Faites-en bon usage !",
+  "LTEXT_QUEST_COBRO_EXPOSICION": "Nous avons reçu notre récompense pour la quête de l'Exposition. A compter d'aujourd'hui, le sentiment d'Amitié de tous les pays (neutres et soumis à des empires) envers notre empire augmentera d'un point et demi par tour pendant une année entière (12 tours).",
+  "LTEXT_QUEST_COBRO_SIMON_BOLIVAR": "Nous avons reçu notre récompense pour la quête de la Réforme de l'armée. Toute notre infanterie de base a été améliorée pour atteindre le niveau de son régiment supérieur et ces unités comptent le nombre maximal de soldats, sans aucune contrepartie financière !",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS_SINPAIS": "%s : cette puissance a accompli la quête de la Déclaration des Droits de l'Homme. Chaque empire a perdu le contrôle d'un pays. N'ayant aucun pays neutre, nous n'avons perdu aucun territoire."
+ }
+}

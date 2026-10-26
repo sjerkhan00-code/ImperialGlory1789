@@ -1,0 +1,19 @@
+# original game files and anything extracted or derived from them: never commit
+paks/
+data/
+data1/
+text/
+re_tools/
+mod/
+*.pak
+*.exe
+*.dll
+# build outputs and caches
+build/public/
+build/release_cache/
+build/units/
+build/tiles_new/
+build/battlemaps/*/*
+!build/battlemaps/*/battlemap.json
+__pycache__/
+*.pyc

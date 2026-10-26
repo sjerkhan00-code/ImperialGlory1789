@@ -1,0 +1,14 @@
+{
+ "scenario": "93",
+ "lvl": "93Caucaso.lvl",
+ "minimap": "93Caucaso.tga",
+ "template": "51",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_CAUCASO_ATACANTE_1": "The mountaineers of the Caucasus have made this valley their fortress. Cross the gorge at the fords and give them no rest!",
+  "LTEXT_TEXTUISECUENCIAS_CAUCASO_ATACANTE_2": "Our objective is the aul on the far slope. Take the village and hold it, and the valley is ours.",
+  "LTEXT_TEXTUISECUENCIAS_CAUCASO_DEFENSOR_1": "The invaders have come up our valley. The gorge and the mountains fight with us: let them bleed at the fords!",
+  "LTEXT_TEXTUISECUENCIAS_CAUCASO_DEFENSOR_2": "Hold the aul at all costs. As long as the village is ours, every attack will break on our slopes."
+ },
+ "pool_key": "CHECHNYA",
+ "minimap_red": "93Caucaso.tga"
+}

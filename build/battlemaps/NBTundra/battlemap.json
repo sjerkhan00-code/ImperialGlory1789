@@ -1,0 +1,20 @@
+{
+ "folder": "NBTundra",
+ "lvl": "NBTundra.lvl",
+ "minimap": "NBTundra.tga",
+ "minimap_red": "NBTundra.tga",
+ "template": "39",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_TUNDRA_ATACANTE_1": "Snow and ice to the horizon, a few stunted trees and low ridges. Cross the frozen streams quickly: on the ice no horse can charge.",
+  "LTEXT_TEXTUISECUENCIAS_TUNDRA_ATACANTE_2": "The log settlement and its chapel by the frozen lake are our objective. Take them.",
+  "LTEXT_TEXTUISECUENCIAS_TUNDRA_DEFENSOR_1": "The enemy must cross the frozen streams in the open. Let the cold and our fire do the work.",
+  "LTEXT_TEXTUISECUENCIAS_TUNDRA_DEFENSOR_2": "Hold the settlement and its chapel. Out here they are the only shelter from the cold."
+ },
+ "provinces": [
+  "W_CHUKOTKA"
+ ],
+ "objective_key": "EGIPTO",
+ "preview_key": "FINLANDIA",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py tundra"
+}

@@ -1,0 +1,29 @@
+{
+ "Management\\TextQuests.sb": {
+  "LTEXT_100000_HIJOS_SAN_LUIS": "Armee Condé",
+  "LTEXT_DESC_SIMON_BOLIVAR": "Unsere Generäle drängen auf eine Reform des Heeres, mein Gebieter! Wenn wir neue Exerzierreglements und Taktiken finanzieren, lehren sie uns Kriegstechniken, die die Entwicklung unserer Armeen deutlich voranbringen werden.",
+  "LTEXT_DESC_EXPOSICION_UNIVERSAL": "Wenn wir unser Volk auf die Ausrichtung einer großen Ausstellung unseres Gewerbes und unserer Künste einschwören, wird unser Ansehen im Rest der Welt während der Ausstellung gewaltig steigen.",
+  "LTEXT_DESC_PAZ_AMIENS": "Wenn es uns gelingt, andere Nationen zur Unterzeichnung des Friedens von Jassy zu bewegen, können wir in dieser Friedenszeit unsere militärische Infrastruktur verbessern und uns auf zukünftige Kriege vorbereiten.",
+  "LTEXT_DESC_100000_HIJOS_SAN_LUIS": "Mein Gebieter, wenn wir die royalistischen Emigranten Condés um Hilfe bitten, mobilisieren wir die reaktionären Kräfte in ganz Europa, und alle treuen Untertanen werden auf unserer Seite kämpfen. Diese Aufgabe ist nur in absolutistischen Monarchien verfügbar.",
+  "LTEXT_EXPOSICION_UNIVERSAL": "Ausstellung",
+  "LTEXT_PAZ_AMIENS": "Friede von Jassy",
+  "LTEXT_SIMON_BOLIVAR": "Heeresreform",
+  "LTEXT_DESC_DECLARACION_DERECHOS_HUMANOS": "Wenn wir als erste Nation die Erklärung der Menschenrechte verkünden, werden sich die Untertanen anderer Reiche ihrer Rechte als Bürger bewusst und revoltieren gegen ihre Herrscher. Diese Aufgabe ist Republiken vorbehalten.",
+  "LTEXT_DECLARACION_DERECHOS_HUMANOS": "Erklärung der Menschenrechte",
+  "LTEXT_DESC_QUEST_FERROCARRIL": "Bald treiben Dampfmaschinen die Räder unserer Mühlen und Schmieden an, Herr! Lasst uns die Maschinen von James Watt in jeder Stadt unseres großen Landes einsetzen. Die Holz- und Warenproduktion des Reiches wird stark steigen und unser Gewerbe sich grundlegend wandeln.",
+  "LTEXT_FERROCARRIL": "Dampfmaschine",
+  "LTEXT_QUEST_COBRO_DECDERHUMANOS": "Wir haben unsere Belohnung für die Aufgabe -Erklärung der Menschenrechte- erhalten, Herr. Folgende Länder wurden aus der Sklaverei befreit: %s.",
+  "LTEXT_QUEST_COBRO_FERROCARRIL": "Wir haben unsere Belohnung für die Aufgabe -Dampfmaschine- erhalten, Herr. In folgenden Regionen wurde ein Sägewerk errichtet: %s.",
+  "LTEXT_QUEST_COBRO_PAZAMIENS": "Wir haben unsere Belohnung für die Aufgabe -Friede von Jassy- erhalten, Herr. In folgenden Regionen wurde eine moderne Militärakademie errichtet: %s.",
+  "LTEXT_QUEST_AJENO_100000HIJOS": "%s hat die Aufgabe -Armee Condé- gemeistert und zwei Marschalle mit jeweils sechs Einheiten erhalten.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS": "%s hat die Aufgabe -Erklärung der Menschenrechte- gemeistert. Jedes Reich hat dadurch ein Land verloren. %s hat sich von uns losgesagt!",
+  "LTEXT_QUEST_AJENO_PAZAMIENS": "%s hat die Aufgabe -Friede von Jassy- gemeistert und daraufhin in allen seinen Hauptstädten moderne Militärakademien errichtet.",
+  "LTEXT_QUEST_AJENO_SIMONBOLIVAR": "%s hat die Aufgabe -Heeresreform- gemeistert. Alle einfachen Infanterieregimenter wurden daraufhin befördert und auf volle Regimentsstärke aufgefüllt.",
+  "LTEXT_QUEST_AJENO_EXPOINTERNACIONAL": "%s hat die Aufgabe -Ausstellung- gemeistert. Das Ansehen des Reiches ist nun in allen Ländern für ein Jahr deutlich höher.",
+  "LTEXT_QUEST_AJENO_FERROCARRIL": "%s hat die Aufgabe -Dampfmaschine- gemeistert und daraufhin in allen seinen Regionen Sägewerke gebaut.",
+  "LTEXT_QUEST_COBRO_100000_HIJOS": "Wir haben unsere Belohnung für die Armee Condé erhalten, Herr: kostenlos zwei Marschalle mit jeweils sechs Einheiten. Setzt die neuen Truppen klug ein...",
+  "LTEXT_QUEST_COBRO_EXPOSICION": "Wir haben unsere Belohnung für die Aufgabe -Ausstellung- erhalten, Herr. Unsere Sympathiewerte steigen dadurch ein Jahr (12 Runden) lang in allen Reichen und neutralen Ländern um 1,5 Punkte pro Runde.",
+  "LTEXT_QUEST_COBRO_SIMON_BOLIVAR": "Wir haben unsere Belohnung für die Aufgabe -Heeresreform- erhalten, Herr. Alle einfachen Infanterieregimenter wurden kostenlos befördert und auf volle Regimentsstärke aufgefüllt.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS_SINPAIS": "%s hat die Aufgabe -Erklärung der Menschenrechte- gemeistert. Alle Reiche verlieren dadurch ein Land. Da wir keine neutralen Länder hatten, ist unser Reich nicht betroffen."
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "Management\\TextQuests.sb": {
+  "LTEXT_100000_HIJOS_SAN_LUIS": "El Ejército de Condé",
+  "LTEXT_DESC_SIMON_BOLIVAR": "¡Nuestros generales reclaman una reforma del ejército, mi señor! Si aceptamos financiar una nueva instrucción y nuevas tácticas, nos proporcionarán técnicas de guerra que mejorarán notablemente nuestros ejércitos.",
+  "LTEXT_DESC_EXPOSICION_UNIVERSAL": "Si unimos a la nación en el esfuerzo común de organizar una gran Exposición de nuestra industria y nuestras artes, nuestro prestigio internacional crecerá enormemente mientras dure.",
+  "LTEXT_DESC_PAZ_AMIENS": "Si convencemos a otras naciones de firmar la Paz de Jassy, podremos fortalecer nuestra infraestructura militar durante el periodo de paz y estar mejor preparados para futuras guerras.",
+  "LTEXT_DESC_100000_HIJOS_SAN_LUIS": "Al solicitar la ayuda de los emigrados realistas de Condé, mi señor, movilizaremos a las fuerzas reaccionarias de toda Europa, y todos los leales servidores de nuestro régimen se pondrán a nuestro lado. Este quest es exclusivo para Monarquías Absolutas.",
+  "LTEXT_EXPOSICION_UNIVERSAL": "La Exposición Industrial",
+  "LTEXT_PAZ_AMIENS": "La Paz de Jassy",
+  "LTEXT_SIMON_BOLIVAR": "La Reforma del Ejército",
+  "LTEXT_DESC_DECLARACION_DERECHOS_HUMANOS": "Si somos la primera nación en publicar la Declaración de los Derechos del Hombre, los súbditos de otros imperios tomarán conciencia de su importancia como ciudadanos y se rebelarán contra sus gobernantes. Este quest es exclusivo para Repúblicas.",
+  "LTEXT_DECLARACION_DERECHOS_HUMANOS": "Los Derechos del Hombre",
+  "LTEXT_DESC_QUEST_FERROCARRIL": "¡Pronto el vapor moverá las ruedas de nuestros molinos y forjas, mi señor! Pongamos las máquinas de James Watt a trabajar en cada ciudad de nuestra nación. La producción de madera y mercancías del imperio aumentará espectacularmente y nuestros métodos industriales se transformarán.",
+  "LTEXT_FERROCARRIL": "La Máquina de Vapor",
+  "LTEXT_QUEST_COBRO_DECDERHUMANOS": "Hemos recibido la recompensa del quest de los Derechos del Hombre, mi señor. Hemos liberado de la esclavitud a los siguientes países: %s.",
+  "LTEXT_QUEST_COBRO_FERROCARRIL": "Hemos recibido la recompensa del quest de la Máquina de Vapor, mi señor. Se ha construido un aserradero en los siguientes territorios: %s.",
+  "LTEXT_QUEST_COBRO_PAZAMIENS": "Hemos recibido la recompensa del quest de la Paz de Jassy, mi señor. Se ha construido un cuartel avanzado en los siguientes territorios: %s.",
+  "LTEXT_QUEST_AJENO_100000HIJOS": "%s ha completado el quest del Ejército de Condé. Ha recibido dos mariscales, cada uno al mando de seis tropas.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS": "%s ha completado el quest de los Derechos del Hombre, y cada imperio ha perdido la posesión de un país. ¡Hemos perdido %s!",
+  "LTEXT_QUEST_AJENO_PAZAMIENS": "%s ha completado el quest de la Paz de Jassy. Como consecuencia, se han construido cuarteles avanzados en todas sus capitales.",
+  "LTEXT_QUEST_AJENO_SIMONBOLIVAR": "%s ha completado el quest de la Reforma del Ejército. Todos sus regimientos de infantería básica se han mejorado a sus regimientos inmediatamente superiores, y se ha restablecido su número inicial de unidades.",
+  "LTEXT_QUEST_AJENO_EXPOINTERNACIONAL": "%s ha completado el quest de la Exposición Industrial. La simpatía hacia su imperio aumentará en todos los países durante un año entero.",
+  "LTEXT_QUEST_AJENO_FERROCARRIL": "%s ha completado el quest de la Máquina de Vapor. Como consecuencia, se han construido aserraderos en todos sus territorios.",
+  "LTEXT_QUEST_COBRO_100000_HIJOS": "Hemos recibido la recompensa del quest del Ejército de Condé, mi señor. Hemos recibido dos mariscales, cada uno al mando de seis tropas, sin coste alguno. Haced buen uso de estas nuevas tropas...",
+  "LTEXT_QUEST_COBRO_EXPOSICION": "Hemos recibido la recompensa del quest de la Exposición Industrial, mi señor. Desde hoy, la simpatía hacia nuestro imperio de todos los países (neutrales e imperios) aumentará un punto y medio por turno durante un año entero (12 turnos).",
+  "LTEXT_QUEST_COBRO_SIMON_BOLIVAR": "Hemos recibido la recompensa del quest de la Reforma del Ejército, mi señor. Toda nuestra infantería básica se ha mejorado a sus regimientos inmediatamente superiores y se ha restablecido su número inicial de unidades, sin coste alguno.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS_SINPAIS": "%s ha completado el quest de los Derechos del Hombre, y cada imperio ha perdido la posesión de un país. Como no teníamos ningún país neutral, nuestro imperio no se ha visto afectado."
+ }
+}

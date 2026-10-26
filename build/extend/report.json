@@ -1,0 +1,85 @@
+{
+ "ext_cells": {
+  "SaharaOccidental": 486,
+  "Tuat": 301,
+  "Cirenaica": 1249,
+  "Egipto": 1631,
+  "Arabia": 101,
+  "Oman": 253,
+  "Khorasan": 698,
+  "Turkestan": 471,
+  "Kazakhstan": 2371,
+  "Siberia": 4163
+ },
+ "ext_pieces": {
+  "SaharaOccidental": 1,
+  "Tuat": 1,
+  "Cirenaica": 1,
+  "Egipto": 1,
+  "Arabia": 1,
+  "Oman": 2,
+  "Khorasan": 2,
+  "Turkestan": 1,
+  "Kazakhstan": 1,
+  "Siberia": 1
+ },
+ "changed": {
+  "senegal": [
+   732,
+   579
+  ],
+  "segu": [
+   1193,
+   860
+  ],
+  "air": [
+   2396,
+   2095
+  ],
+  "kokand": [
+   2147,
+   1676
+  ],
+  "semirechye": [
+   6860,
+   4302
+  ],
+  "kabul": [
+   1277,
+   1230
+  ],
+  "kandahar": [
+   732,
+   728
+  ],
+  "baluch": [
+   2201,
+   1554
+  ],
+  "tomsk": [
+   11080,
+   7104
+  ],
+  "najd": [
+   3722,
+   3621
+  ],
+  "muscat": [
+   959,
+   704
+  ],
+  "upperegypt": [
+   1485,
+   0
+  ],
+  "fezzan": [
+   1001,
+   756
+  ]
+ },
+ "removed": [
+  "upperegypt"
+ ],
+ "not_simple": [],
+ "cell_area": 1600.0
+}

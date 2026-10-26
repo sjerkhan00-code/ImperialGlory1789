@@ -1,0 +1,29 @@
+{
+ "Management\\TextQuests.sb": {
+  "LTEXT_100000_HIJOS_SAN_LUIS": "Armia Kondeusza",
+  "LTEXT_DESC_SIMON_BOLIVAR": "Panie, nasi generałowie nalegają na reformę armii! Jeśli sfinansujemy nowe regulaminy i taktykę, przekażą nam wiedzę o technikach walki, dzięki czemu będziemy mogli znacznie zwiększyć możliwości naszych wojsk.",
+  "LTEXT_DESC_EXPOSICION_UNIVERSAL": "Jeśli zjednoczymy nasz naród we wspólnym dziele organizacji wielkiej Wystawy naszego przemysłu i sztuki, nasza reputacja wśród innych krajów znacznie wzrośnie na czas jej trwania.",
+  "LTEXT_DESC_PAZ_AMIENS": "Jeśli skłonimy inne narody do podpisania pokoju w Jassach, będziemy mogli rozbudować naszą infrastrukturę wojskową w czasie pokoju, aby dobrze się przygotować do przyszłych wojen.",
+  "LTEXT_DESC_100000_HIJOS_SAN_LUIS": "Panie, jeśli poprosimy o pomoc rojalistycznych emigrantów Kondeusza, zgromadzimy siły reakcyjne w całej Europie, a wszyscy poddani lojalni wobec naszej władzy staną u naszego boku. To Zadanie jest zarezerwowane tylko dla Monarchii Absolutnych.",
+  "LTEXT_EXPOSICION_UNIVERSAL": "Wystawa",
+  "LTEXT_PAZ_AMIENS": "Pokój w Jassach",
+  "LTEXT_SIMON_BOLIVAR": "Reforma Armii",
+  "LTEXT_DESC_DECLARACION_DERECHOS_HUMANOS": "Jeśli jako pierwszy naród ogłosimy Deklarację Praw Człowieka i Obywatela, poddani innych Imperiów staną się świadomi swojego znaczenia jako obywateli i powstaną przeciwko swoim władcom. To Zadanie jest zarezerwowane tylko dla Republik.",
+  "LTEXT_DECLARACION_DERECHOS_HUMANOS": "Deklaracja Praw Człowieka",
+  "LTEXT_DESC_QUEST_FERROCARRIL": "Panie, maszyny parowe wkrótce poruszą koła naszych młynów i kuźni! Uruchommy maszyny Jamesa Watta w każdym mieście naszego wspaniałego kraju. Produkcja drewna i towarów w całym Imperium gwałtownie wzrośnie, a nasze metody produkcyjne całkowicie się zmienią.",
+  "LTEXT_FERROCARRIL": "Maszyna parowa",
+  "LTEXT_QUEST_COBRO_DECDERHUMANOS": "Panie, odebraliśmy naszą nagrodę za Zadanie Deklaracja Praw Człowieka. Uwolniliśmy od niewoli następujące kraje: %s.",
+  "LTEXT_QUEST_COBRO_FERROCARRIL": "Panie, odebraliśmy naszą nagrodę za Zadanie Maszyna parowa. Wybudowaliśmy Tartaki na następujących terytoriach: %s.",
+  "LTEXT_QUEST_COBRO_PAZAMIENS": "Panie, odebraliśmy naszą nagrodę za Zadanie Pokój w Jassach. Wybudowaliśmy Zaawansowane Akademie Wojskowe na następujących terytoriach: %s.",
+  "LTEXT_QUEST_AJENO_100000HIJOS": "Państwo %s zakończyło Zadanie Armia Kondeusza. Otrzymało dwóch marszałków, każdy z sześcioma oddziałami pod swoim dowództwem.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS": "Państwo %s zakończyło Zadanie Deklaracja Praw Człowieka, w wyniku czego każde Imperium utraciło jeden kraj. Utraciliśmy państwo %s!",
+  "LTEXT_QUEST_AJENO_PAZAMIENS": "Państwo %s zakończyło Zadanie Pokój w Jassach. Dlatego we wszystkich jego stolicach wybudowano Zaawansowane Akademie Wojskowe.",
+  "LTEXT_QUEST_AJENO_SIMONBOLIVAR": "Państwo %s zakończyło Zadanie Reforma Armii. Wszystkie jego podstawowe oddziały Piechoty awansowały do bezpośrednio wyższego statusu i odzyskały pełny stan liczebny.",
+  "LTEXT_QUEST_AJENO_EXPOINTERNACIONAL": "Państwo %s zakończyło Zadanie Wystawa. Wskaźnik Sympatii wszystkich krajów dla tego Imperium będzie rósł przez cały rok.",
+  "LTEXT_QUEST_AJENO_FERROCARRIL": "Państwo %s zakończyło Zadanie Maszyna parowa. Dlatego na wszystkich jego terytoriach wybudowano Tartaki.",
+  "LTEXT_QUEST_COBRO_100000_HIJOS": "Panie, odebraliśmy naszą nagrodę za Zadanie Armia Kondeusza. Za darmo otrzymaliśmy dwóch Marszałków dowodzących sześcioma jednostkami. Wykorzystaj dobrze te nowe oddziały...",
+  "LTEXT_QUEST_COBRO_EXPOSICION": "Panie, odebraliśmy nagrodę za Zadanie Wystawa. Odtąd Sympatia wszystkich krajów (neutralnych i Imperiów) dla naszego Imperium będzie wzrastać o półtora punktu w każdej turze przez cały rok (12 tur).",
+  "LTEXT_QUEST_COBRO_SIMON_BOLIVAR": "Panie, odebraliśmy nagrodę za Zadanie Reforma Armii. Cała nasza podstawowa Piechota awansowała bezpłatnie do bezpośrednio wyższych pułków i odzyskała pełny stan liczebny.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS_SINPAIS": "Państwo %s ukończyło Zadanie Deklaracja Praw Człowieka i każde Imperium straciło jeden kraj. Nie posiadaliśmy neutralnych krajów, więc nas to nie dotknęło."
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "Management\\TextNombresFlotas\\TextFlotasArabes.sb": {
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PERSIA": "Flotte persane%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ARABIA": "Flotte arabe%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_SHEIKHS": "Flotte arabe%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_TURKESTAN": "Flotte du Turkestan%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_CHECHNYA": "Flotte tchétchène%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_QING": "Flotte chinoise%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_JAPAN": "Flotte japonaise%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_MARATHA": "Flotte marathe%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ETHIOPIA": "Flotte éthiopienne%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_INDEPENDENT": "Flotte d'Orient%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PRINCES": "Flotte indienne%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_NILE": "Flotte nilotique%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PACIFIC": "Flotte du Pacifique%s"
+ },
+ "Management\\TextHerederos.sb": {
+  "LTEXT_HEREDERO_JUG_INDEPENDENT_F_1": "Princesse Hyeon",
+  "LTEXT_HEREDERO_JUG_SHEIKHS_F_1": "Princesse Aisha",
+  "LTEXT_HEREDERO_JUG_NILE_F_1": "Princesse Ama",
+  "LTEXT_HEREDERO_JUG_NILE_M_1": "Prince Kwaku",
+  "LTEXT_HEREDERO_JUG_PACIFIC_F_1": "Princesse Rangi",
+  "LTEXT_HEREDERO_JUG_PACIFIC_M_1": "Prince Ruatara"
+ }
+}

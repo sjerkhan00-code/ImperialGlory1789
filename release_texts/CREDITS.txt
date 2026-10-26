@@ -1,0 +1,16 @@
+IMPERIAL GLORY 1789 - CREDITS
+
+Mod: Treseed (design, coding, direction, testing)
+Made with AI assistance. New translations are AI-made.
+
+Game: Imperial Glory (c) 2005 Pyro Studios / Eidos Interactive, rights now
+with Square Enix. Unofficial fan mod, not endorsed by them. All original
+assets remain the property of their owners.
+
+Thanks (used as reference, no files included):
+* ItsMePaiinZ - "All 24 Nations": crash research, patch-your-own-exe idea.
+* chnickiz and Pyro developer Ruben Justo Ibanez ("rUbO"): file formats.
+* The Imperial Glory Steam community: resolution notes.
+* Dege - dgVoodoo2 (optional, not included).
+
+Tools: Ghidra, Capstone, Python, Pillow, NumPy.

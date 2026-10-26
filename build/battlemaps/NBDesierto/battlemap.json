@@ -1,0 +1,29 @@
+{
+ "folder": "NBDesierto",
+ "lvl": "NBDesierto.lvl",
+ "minimap": "NBDesierto.tga",
+ "minimap_red": "NBDesierto.tga",
+ "template": "58",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_DESIERTO_ATACANTE_1": "Sand to the west, rock to the east and a dry wadi between: the desert itself defends these wells. Cross the wadi where its banks are low.",
+  "LTEXT_TEXTUISECUENCIAS_DESIERTO_ATACANTE_2": "Our objective is the village by the oasis. Whoever holds the water holds the desert.",
+  "LTEXT_TEXTUISECUENCIAS_DESIERTO_DEFENSOR_1": "The enemy has marched into the desert, far from any water. Let the sun and the wadi wear them down.",
+  "LTEXT_TEXTUISECUENCIAS_DESIERTO_DEFENSOR_2": "Hold the village by the oasis. Without its wells they cannot stay here for long."
+ },
+ "provinces": [
+  "ARABIA",
+  "OMAN",
+  "W_HEJAZ",
+  "W_NAJD",
+  "W_MUSCAT",
+  "W_YEMEN",
+  "W_ADAL",
+  "W_BENADIR",
+  "W_KASHGARIA",
+  "W_AGADEZ"
+ ],
+ "objective_key": "TRIPOLITANIA",
+ "preview_key": "TRIPOLITANIA",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py desert"
+}

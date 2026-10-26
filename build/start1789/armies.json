@@ -1,0 +1,1890 @@
+{
+ "JUG_QING": [
+  {
+   "province": "zhili",
+   "province_idx": 226,
+   "name": "",
+   "officer_name": "",
+   "officer": 429,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     429,
+     0
+    ],
+    [
+     "",
+     438,
+     0
+    ],
+    [
+     "",
+     427,
+     0
+    ],
+    [
+     "",
+     437,
+     0
+    ],
+    [
+     "",
+     428,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "sichuan",
+   "province_idx": 200,
+   "name": "",
+   "officer_name": "",
+   "officer": 434,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     434,
+     0
+    ],
+    [
+     "",
+     437,
+     0
+    ],
+    [
+     "",
+     435,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "guangdong",
+   "province_idx": 131,
+   "name": "",
+   "officer_name": "",
+   "officer": 434,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     434,
+     0
+    ],
+    [
+     "",
+     437,
+     0
+    ],
+    [
+     "",
+     435,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "dzungaria",
+   "province_idx": 124,
+   "name": "",
+   "officer_name": "",
+   "officer": 434,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     434,
+     0
+    ],
+    [
+     "",
+     427,
+     0
+    ],
+    [
+     "",
+     438,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_JAPAN": [
+  {
+   "province": "honshu",
+   "province_idx": 135,
+   "name": "",
+   "officer_name": "",
+   "officer": 448,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     448,
+     0
+    ],
+    [
+     "",
+     449,
+     0
+    ],
+    [
+     "",
+     451,
+     0
+    ],
+    [
+     "",
+     452,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "kyushu",
+   "province_idx": 152,
+   "name": "",
+   "officer_name": "",
+   "officer": 448,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     448,
+     0
+    ],
+    [
+     "",
+     449,
+     0
+    ],
+    [
+     "",
+     451,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_JOSEON": [
+  {
+   "province": "korea",
+   "province_idx": 151,
+   "name": "",
+   "officer_name": "",
+   "officer": 462,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     462,
+     0
+    ],
+    [
+     "",
+     463,
+     0
+    ],
+    [
+     "",
+     465,
+     0
+    ],
+    [
+     "",
+     456,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_MARATHA": [
+  {
+   "province": "pune",
+   "province_idx": 187,
+   "name": "",
+   "officer_name": "",
+   "officer": 472,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     472,
+     0
+    ],
+    [
+     "",
+     469,
+     0
+    ],
+    [
+     "",
+     470,
+     0
+    ],
+    [
+     "",
+     470,
+     0
+    ],
+    [
+     "",
+     471,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "delhi",
+   "province_idx": 123,
+   "name": "",
+   "officer_name": "",
+   "officer": 477,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     477,
+     0
+    ],
+    [
+     "",
+     473,
+     0
+    ],
+    [
+     "",
+     473,
+     0
+    ],
+    [
+     "",
+     471,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "malwa",
+   "province_idx": 160,
+   "name": "",
+   "officer_name": "",
+   "officer": 477,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     477,
+     0
+    ],
+    [
+     "",
+     470,
+     0
+    ],
+    [
+     "",
+     470,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_MYSORE": [
+  {
+   "province": "mysore",
+   "province_idx": 170,
+   "name": "",
+   "officer_name": "",
+   "officer": 487,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     487,
+     0
+    ],
+    [
+     "",
+     488,
+     0
+    ],
+    [
+     "",
+     488,
+     0
+    ],
+    [
+     "",
+     485,
+     0
+    ],
+    [
+     "",
+     486,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_HYDERABAD": [
+  {
+   "province": "hyderabad",
+   "province_idx": 137,
+   "name": "",
+   "officer_name": "",
+   "officer": 507,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     507,
+     0
+    ],
+    [
+     "",
+     503,
+     0
+    ],
+    [
+     "",
+     500,
+     0
+    ],
+    [
+     "",
+     510,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_PUNJAB": [
+  {
+   "province": "punjab",
+   "province_idx": 188,
+   "name": "",
+   "officer_name": "",
+   "officer": 522,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     522,
+     0
+    ],
+    [
+     "",
+     515,
+     0
+    ],
+    [
+     "",
+     515,
+     0
+    ],
+    [
+     "",
+     525,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_NEPAL": [
+  {
+   "province": "nepal",
+   "province_idx": 174,
+   "name": "",
+   "officer_name": "",
+   "officer": 537,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     537,
+     0
+    ],
+    [
+     "",
+     538,
+     0
+    ],
+    [
+     "",
+     540,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_DURRANI": [
+  {
+   "province": "kabul",
+   "province_idx": 143,
+   "name": "",
+   "officer_name": "",
+   "officer": 551,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     551,
+     0
+    ],
+    [
+     "",
+     544,
+     0
+    ],
+    [
+     "",
+     555,
+     0
+    ],
+    [
+     "",
+     556,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "peshawar",
+   "province_idx": 186,
+   "name": "",
+   "officer_name": "",
+   "officer": 551,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     551,
+     0
+    ],
+    [
+     "",
+     544,
+     0
+    ],
+    [
+     "",
+     552,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_BURMA": [
+  {
+   "province": "ava",
+   "province_idx": 101,
+   "name": "",
+   "officer_name": "",
+   "officer": 565,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     565,
+     0
+    ],
+    [
+     "",
+     568,
+     0
+    ],
+    [
+     "",
+     566,
+     0
+    ],
+    [
+     "",
+     559,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "pegu",
+   "province_idx": 185,
+   "name": "",
+   "officer_name": "",
+   "officer": 565,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     565,
+     0
+    ],
+    [
+     "",
+     568,
+     0
+    ],
+    [
+     "",
+     566,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_SIAM": [
+  {
+   "province": "siam",
+   "province_idx": 199,
+   "name": "",
+   "officer_name": "",
+   "officer": 579,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     579,
+     0
+    ],
+    [
+     "",
+     582,
+     0
+    ],
+    [
+     "",
+     580,
+     0
+    ],
+    [
+     "",
+     572,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_VIETNAM": [
+  {
+   "province": "annam",
+   "province_idx": 97,
+   "name": "",
+   "officer_name": "",
+   "officer": 593,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     593,
+     0
+    ],
+    [
+     "",
+     596,
+     0
+    ],
+    [
+     "",
+     594,
+     0
+    ],
+    [
+     "",
+     587,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "tonkin",
+   "province_idx": 214,
+   "name": "",
+   "officer_name": "",
+   "officer": 593,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     593,
+     0
+    ],
+    [
+     "",
+     596,
+     0
+    ],
+    [
+     "",
+     594,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_NGUYEN": [
+  {
+   "province": "cochin",
+   "province_idx": 121,
+   "name": "",
+   "officer_name": "",
+   "officer": 918,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     918,
+     0
+    ],
+    [
+     "",
+     914,
+     0
+    ],
+    [
+     "",
+     921,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_MALAYA": [
+  {
+   "province": "malaya",
+   "province_idx": 159,
+   "name": "",
+   "officer_name": "",
+   "officer": 607,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     607,
+     0
+    ],
+    [
+     "",
+     610,
+     0
+    ],
+    [
+     "",
+     608,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_BRUNEI": [
+  {
+   "province": "borneonord",
+   "province_idx": 109,
+   "name": "",
+   "officer_name": "",
+   "officer": 621,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     621,
+     0
+    ],
+    [
+     "",
+     624,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_MAORI": [
+  {
+   "province": "nznorth",
+   "province_idx": 180,
+   "name": "",
+   "officer_name": "",
+   "officer": 635,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     635,
+     0
+    ],
+    [
+     "",
+     638,
+     0
+    ],
+    [
+     "",
+     638,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_ETHIOPIA": [
+  {
+   "province": "ethiopia",
+   "province_idx": 125,
+   "name": "",
+   "officer_name": "",
+   "officer": 650,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     650,
+     0
+    ],
+    [
+     "",
+     653,
+     0
+    ],
+    [
+     "",
+     654,
+     0
+    ],
+    [
+     "",
+     651,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_OMAN": [
+  {
+   "province": "muscat",
+   "province_idx": 169,
+   "name": "",
+   "officer_name": "",
+   "officer": 664,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     664,
+     0
+    ],
+    [
+     "",
+     667,
+     0
+    ],
+    [
+     "",
+     669,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "swahili",
+   "province_idx": 208,
+   "name": "",
+   "officer_name": "",
+   "officer": 664,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     664,
+     0
+    ],
+    [
+     "",
+     667,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_SENNAR": [
+  {
+   "province": "sennar",
+   "province_idx": 197,
+   "name": "",
+   "officer_name": "",
+   "officer": 678,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     678,
+     0
+    ],
+    [
+     "",
+     682,
+     0
+    ],
+    [
+     "",
+     681,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_DARFUR": [
+  {
+   "province": "darfur",
+   "province_idx": 122,
+   "name": "",
+   "officer_name": "",
+   "officer": 692,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     692,
+     0
+    ],
+    [
+     "",
+     696,
+     0
+    ],
+    [
+     "",
+     697,
+     0
+    ],
+    [
+     "",
+     695,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_BORNU": [
+  {
+   "province": "bornu",
+   "province_idx": 111,
+   "name": "",
+   "officer_name": "",
+   "officer": 706,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     706,
+     0
+    ],
+    [
+     "",
+     710,
+     0
+    ],
+    [
+     "",
+     709,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_SEGU": [
+  {
+   "province": "segu",
+   "province_idx": 194,
+   "name": "",
+   "officer_name": "",
+   "officer": 720,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     720,
+     0
+    ],
+    [
+     "",
+     723,
+     0
+    ],
+    [
+     "",
+     713,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_ASHANTI": [
+  {
+   "province": "ashanti",
+   "province_idx": 99,
+   "name": "",
+   "officer_name": "",
+   "officer": 734,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     734,
+     0
+    ],
+    [
+     "",
+     735,
+     0
+    ],
+    [
+     "",
+     735,
+     0
+    ],
+    [
+     "",
+     737,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_OYO": [
+  {
+   "province": "oyo",
+   "province_idx": 184,
+   "name": "",
+   "officer_name": "",
+   "officer": 748,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     748,
+     0
+    ],
+    [
+     "",
+     752,
+     0
+    ],
+    [
+     "",
+     741,
+     0
+    ],
+    [
+     "",
+     751,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_KONGO": [
+  {
+   "province": "kongo",
+   "province_idx": 150,
+   "name": "",
+   "officer_name": "",
+   "officer": 762,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     762,
+     0
+    ],
+    [
+     "",
+     765,
+     0
+    ],
+    [
+     "",
+     763,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_LUNDA": [
+  {
+   "province": "lunda",
+   "province_idx": 156,
+   "name": "",
+   "officer_name": "",
+   "officer": 776,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     776,
+     0
+    ],
+    [
+     "",
+     779,
+     0
+    ],
+    [
+     "",
+     779,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_BUGANDA": [
+  {
+   "province": "buganda",
+   "province_idx": 112,
+   "name": "",
+   "officer_name": "",
+   "officer": 790,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     790,
+     0
+    ],
+    [
+     "",
+     793,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_ROZVI": [
+  {
+   "province": "rozvi",
+   "province_idx": 192,
+   "name": "",
+   "officer_name": "",
+   "officer": 804,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     804,
+     0
+    ],
+    [
+     "",
+     807,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_MADAGASCAR": [
+  {
+   "province": "madagascar",
+   "province_idx": 158,
+   "name": "",
+   "officer_name": "",
+   "officer": 818,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     818,
+     0
+    ],
+    [
+     "",
+     821,
+     0
+    ],
+    [
+     "",
+     819,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_ABORIGINES": [
+  {
+   "province": "northaus",
+   "province_idx": 177,
+   "name": "",
+   "officer_name": "",
+   "officer": 832,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     832,
+     0
+    ],
+    [
+     "",
+     835,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_YEMEN": [
+  {
+   "province": "yemen",
+   "province_idx": 223,
+   "name": "",
+   "officer_name": "",
+   "officer": 846,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     846,
+     0
+    ],
+    [
+     "",
+     849,
+     0
+    ],
+    [
+     "",
+     847,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_NGUNI": [
+  {
+   "province": "natal",
+   "province_idx": 173,
+   "name": "",
+   "officer_name": "",
+   "officer": 860,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     860,
+     0
+    ],
+    [
+     "",
+     863,
+     0
+    ],
+    [
+     "",
+     863,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_BECHUANA": [
+  {
+   "province": "kalahari",
+   "province_idx": 144,
+   "name": "",
+   "officer_name": "",
+   "officer": 874,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     874,
+     0
+    ],
+    [
+     "",
+     877,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_AHOM": [
+  {
+   "province": "assam",
+   "province_idx": 100,
+   "name": "",
+   "officer_name": "",
+   "officer": 889,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     889,
+     0
+    ],
+    [
+     "",
+     892,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_TRAVANCORE": [
+  {
+   "province": "travancore",
+   "province_idx": 215,
+   "name": "",
+   "officer_name": "",
+   "officer": 904,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     904,
+     0
+    ],
+    [
+     "",
+     900,
+     0
+    ],
+    [
+     "",
+     907,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_FUTA": [
+  {
+   "province": "futa",
+   "province_idx": 130,
+   "name": "",
+   "officer_name": "",
+   "officer": 932,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     932,
+     0
+    ],
+    [
+     "",
+     925,
+     0
+    ],
+    [
+     "",
+     935,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_MOSSI": [
+  {
+   "province": "mossi",
+   "province_idx": 166,
+   "name": "",
+   "officer_name": "",
+   "officer": 946,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     946,
+     0
+    ],
+    [
+     "",
+     950,
+     0
+    ],
+    [
+     "",
+     949,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_PAPUA": [
+  {
+   "province": "nguineaost",
+   "province_idx": 175,
+   "name": "",
+   "officer_name": "",
+   "officer": 960,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     960,
+     0
+    ],
+    [
+     "",
+     963,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_GRAN_BRETANYA": [
+  {
+   "province": "Inglaterra",
+   "province_idx": 1,
+   "name": "",
+   "officer_name": "",
+   "officer": 244,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     244,
+     0
+    ],
+    [
+     "",
+     129,
+     0
+    ],
+    [
+     "",
+     129,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "Irlanda",
+   "province_idx": 4,
+   "name": "",
+   "officer_name": "",
+   "officer": 244,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     244,
+     0
+    ],
+    [
+     "",
+     268,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "bengal",
+   "province_idx": 105,
+   "name": "",
+   "officer_name": "",
+   "officer": 244,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     244,
+     0
+    ],
+    [
+     "",
+     129,
+     0
+    ],
+    [
+     "",
+     65,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "carnatic",
+   "province_idx": 116,
+   "name": "",
+   "officer_name": "",
+   "officer": 244,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     244,
+     0
+    ],
+    [
+     "",
+     129,
+     0
+    ],
+    [
+     "",
+     20,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "bombay",
+   "province_idx": 108,
+   "name": "",
+   "officer_name": "",
+   "officer": 244,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     244,
+     0
+    ],
+    [
+     "",
+     129,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "nsw",
+   "province_idx": 178,
+   "name": "",
+   "officer_name": "",
+   "officer": 244,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     244,
+     0
+    ],
+    [
+     "",
+     129,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_BATAVIA": [
+  {
+   "province": "Batavia",
+   "province_idx": 45,
+   "name": "",
+   "officer_name": "",
+   "officer": 261,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     261,
+     0
+    ],
+    [
+     "",
+     146,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "java",
+   "province_idx": 141,
+   "name": "",
+   "officer_name": "",
+   "officer": 261,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     261,
+     0
+    ],
+    [
+     "",
+     146,
+     0
+    ],
+    [
+     "",
+     334,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "cape",
+   "province_idx": 115,
+   "name": "",
+   "officer_name": "",
+   "officer": 261,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     261,
+     0
+    ],
+    [
+     "",
+     334,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "ceylon",
+   "province_idx": 118,
+   "name": "",
+   "officer_name": "",
+   "officer": 261,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     261,
+     0
+    ],
+    [
+     "",
+     146,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_PORTUGAL": [
+  {
+   "province": "Alentejo",
+   "province_idx": 37,
+   "name": "",
+   "officer_name": "",
+   "officer": 255,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     255,
+     0
+    ],
+    [
+     "",
+     279,
+     0
+    ],
+    [
+     "",
+     140,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "angola",
+   "province_idx": 96,
+   "name": "",
+   "officer_name": "",
+   "officer": 255,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     255,
+     0
+    ],
+    [
+     "",
+     328,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "mozambique",
+   "province_idx": 167,
+   "name": "",
+   "officer_name": "",
+   "officer": 255,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     255,
+     0
+    ],
+    [
+     "",
+     328,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_ESPANYA": [
+  {
+   "province": "Castilla",
+   "province_idx": 22,
+   "name": "",
+   "officer_name": "",
+   "officer": 249,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     134,
+     0
+    ],
+    [
+     "",
+     249,
+     0
+    ],
+    [
+     "",
+     273,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "Cataluna",
+   "province_idx": 23,
+   "name": "",
+   "officer_name": "",
+   "officer": 249,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     249,
+     0
+    ],
+    [
+     "",
+     273,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "luzon",
+   "province_idx": 157,
+   "name": "",
+   "officer_name": "",
+   "officer": 249,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     249,
+     0
+    ],
+    [
+     "",
+     134,
+     0
+    ],
+    [
+     "",
+     321,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_FRANCIA": [
+  {
+   "province": "Toulose",
+   "province_idx": 9,
+   "name": "",
+   "officer_name": "",
+   "officer": 245,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     245,
+     0
+    ],
+    [
+     "",
+     130,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "IslaDeFrancia",
+   "province_idx": 5,
+   "name": "",
+   "officer_name": "",
+   "officer": 245,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     245,
+     0
+    ],
+    [
+     "",
+     317,
+     0
+    ],
+    [
+     "",
+     362,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "Champagne",
+   "province_idx": 7,
+   "name": "",
+   "officer_name": "",
+   "officer": 245,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     245,
+     0
+    ],
+    [
+     "",
+     317,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "senegal",
+   "province_idx": 196,
+   "name": "",
+   "officer_name": "",
+   "officer": 245,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     245,
+     0
+    ],
+    [
+     "",
+     130,
+     0
+    ]
+   ]
+  }
+ ],
+ "JUG_RUSIA": [
+  {
+   "province": "Kiev",
+   "province_idx": 14,
+   "name": "",
+   "officer_name": "",
+   "officer": 247,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     247,
+     0
+    ],
+    [
+     "",
+     271,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "Letonia",
+   "province_idx": 10,
+   "name": "",
+   "officer_name": "",
+   "officer": 247,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     247,
+     0
+    ],
+    [
+     "",
+     132,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "Minsk",
+   "province_idx": 12,
+   "name": "",
+   "officer_name": "",
+   "officer": 247,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     247,
+     0
+    ],
+    [
+     "",
+     319,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "tomsk",
+   "province_idx": 213,
+   "name": "",
+   "officer_name": "",
+   "officer": 247,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     247,
+     0
+    ],
+    [
+     "",
+     382,
+     0
+    ],
+    [
+     "",
+     319,
+     0
+    ]
+   ]
+  },
+  {
+   "province": "irkutsk",
+   "province_idx": 139,
+   "name": "",
+   "officer_name": "",
+   "officer": 247,
+   "zero": 0,
+   "units": [
+    [
+     "",
+     247,
+     0
+    ],
+    [
+     "",
+     319,
+     0
+    ]
+   ]
+  }
+ ]
+}

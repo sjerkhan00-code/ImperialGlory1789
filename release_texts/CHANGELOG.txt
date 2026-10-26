@@ -1,0 +1,13 @@
+IMPERIAL GLORY 1789 - CHANGELOG
+
+1.0.0 - first public release
+* 1789 world campaign: Europe, Asia and Africa, 280 provinces, natural
+  borders, islands, new ports and a redrawn diplomacy map.
+* 29 playable nations; seven regional peoples hold the rest of the world.
+* 1789 borders, armies, fleets, technologies, alliances and wars.
+* New uniforms, unit cards, flags, troop names and battlefields.
+* Crash fixes for all non-empire nations; much faster AI turns.
+* The camera starts on your capital, scrollable Select Empire, 'Skip all'
+  for notices, longer queues, autosave every turn, 4K resolutions.
+* Quick Game with every nation; optional Cheats menu (player only).
+* Offline installer; no original game files in the download.

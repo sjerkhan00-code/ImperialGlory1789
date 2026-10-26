@@ -1,0 +1,34 @@
+{
+ "folder": "NBIndia",
+ "lvl": "NBIndia.lvl",
+ "minimap": "NBIndia.tga",
+ "minimap_red": "NBIndia.tga",
+ "template": "41",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_INDOSTAN_ATACANTE_1": "A rich plain of fields and groves between the river and the stream. The stream can be forded, but it will slow our men; the bridges are few.",
+  "LTEXT_TEXTUISECUENCIAS_INDOSTAN_ATACANTE_2": "The enemy holds the temple and its village by the river. Take it and the province is ours.",
+  "LTEXT_TEXTUISECUENCIAS_INDOSTAN_DEFENSOR_1": "The enemy comes across the plain. Let them wade the stream under our guns.",
+  "LTEXT_TEXTUISECUENCIAS_INDOSTAN_DEFENSOR_2": "Hold the temple and the village around it. While they stand, the province stands."
+ },
+ "provinces": [
+  "W_POONA",
+  "W_DELHI",
+  "W_GUJARAT",
+  "W_MALWA",
+  "W_BERAR",
+  "W_ORISSA",
+  "W_RAJPUTANA",
+  "W_HYDERABAD",
+  "W_PUNJAB",
+  "W_MYSORE",
+  "W_TRAVANCORE",
+  "W_ASSAM",
+  "W_PESHAWAR",
+  "W_MULTAN",
+  "W_SINDH"
+ ],
+ "objective_key": "EGIPTO",
+ "preview_key": "VENECIA",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py india"
+}

@@ -1,0 +1,29 @@
+{
+ "Management\\TextQuests.sb": {
+  "LTEXT_100000_HIJOS_SAN_LUIS": "Armata di Condé",
+  "LTEXT_DESC_SIMON_BOLIVAR": "I nostri generali chiedono una riforma dell'esercito, mio signore! Se finanzieremo nuovi regolamenti e nuove tattiche, ci insegneranno delle tecniche di guerra che aumenteranno lo sviluppo delle nostre armate.",
+  "LTEXT_DESC_EXPOSICION_UNIVERSAL": "Se uniamo la nostra nazione nell'intento comune di allestire una grande esposizione della nostra industria e delle nostre arti, la nostra reputazione presso gli altri Paesi aumenterà enormemente per tutta la sua durata.",
+  "LTEXT_DESC_PAZ_AMIENS": "Se costringiamo le altre nazioni a firmare il trattato di Jassy, saremo in grado di rinforzare le nostre infrastrutture militari durante questo periodo di pace per essere preparati ad affrontare guerre future.",
+  "LTEXT_DESC_100000_HIJOS_SAN_LUIS": "Mio signore, chiedendo l'aiuto degli emigrati realisti di Condé, mobiliteremo le forze reazionarie in tutta Europa e i fedelissimi al nostro regime si schiereranno dalla nostra parte. Questa missione è un'esclusiva delle monarchie assolute.",
+  "LTEXT_EXPOSICION_UNIVERSAL": "Esposizione",
+  "LTEXT_PAZ_AMIENS": "Trattato di Jassy",
+  "LTEXT_SIMON_BOLIVAR": "Riforma dell'esercito",
+  "LTEXT_DESC_DECLARACION_DERECHOS_HUMANOS": "Essendo la prima nazione a proclamare la Dichiarazione dei diritti dell'uomo, i sudditi degli altri imperi diventeranno consapevoli della loro importanza di cittadini e si ribelleranno ai loro dominatori. Questa missione è esclusiva delle repubbliche.",
+  "LTEXT_DECLARACION_DERECHOS_HUMANOS": "Dichiarazione dei diritti dell'uomo",
+  "LTEXT_DESC_QUEST_FERROCARRIL": "Le macchine a vapore faranno presto girare le ruote dei nostri mulini e delle fucine, signore! Mettiamo all'opera le macchine di James Watt in ogni città della nostra grande nazione. La produzione di legname e merci aumenterà incredibilmente e i nostri metodi industriali verranno rivoluzionati!",
+  "LTEXT_FERROCARRIL": "Macchina a vapore",
+  "LTEXT_QUEST_COBRO_DECDERHUMANOS": "Abbiamo conquistato la ricompensa per la missione 'Dichiarazione dei diritti dell'uomo', signore. Abbiamo liberato le seguenti nazioni dalla schiavitù: %s.",
+  "LTEXT_QUEST_COBRO_FERROCARRIL": "Abbiamo conquistato la ricompensa per la missione 'Macchina a vapore', signore. È stata costruita una segheria nei seguenti territori: %s.",
+  "LTEXT_QUEST_COBRO_PAZAMIENS": "Abbiamo conquistato la ricompensa per la missione 'Trattato di Jassy', signore. È stata costruita un'accademia militare avanzata nei seguenti territori: %s.",
+  "LTEXT_QUEST_AJENO_100000HIJOS": "La nazione: %s ha completato la missione 'Armata di Condé'. Ha ricevuto due feldmarescialli, ciascuno al comando di sei unità.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS": "La nazione: %s ha completato la missione 'Dichiarazione dei diritti dell'uomo' e ciascun Impero ha perso il controllo di una nazione. Abbiamo perso la nazione: %s!",
+  "LTEXT_QUEST_AJENO_PAZAMIENS": "La nazione: %s ha completato la missione 'Trattato di Jassy'. Di conseguenza, sono state costruite accademie militari avanzate in tutte le sue capitali.",
+  "LTEXT_QUEST_AJENO_SIMONBOLIVAR": "La nazione: %s ha completato la missione 'Riforma dell'esercito'. Tutti i reggimenti di fanteria base sono stati promossi al rango immediatamente superiore e riportati a pieno organico.",
+  "LTEXT_QUEST_AJENO_EXPOINTERNACIONAL": "La nazione: %s ha completato la missione 'Esposizione'. La simpatia per questo Impero aumenterà in tutte le nazioni per un anno intero.",
+  "LTEXT_QUEST_AJENO_FERROCARRIL": "La nazione: %s ha completato la missione 'Macchina a vapore'. Di conseguenza sono state costruite segherie in tutti i suoi territori.",
+  "LTEXT_QUEST_COBRO_100000_HIJOS": "Abbiamo incassato la ricompensa per la missione 'Armata di Condé', signore. Abbiamo ricevuto gratuitamente due feldmarescialli, ciascuno al comando di sei unità. Fanne buon uso...",
+  "LTEXT_QUEST_COBRO_EXPOSICION": "Abbiamo incassato la ricompensa per la missione 'Esposizione', signore. Da adesso in poi, la simpatia verso il nostro Impero da parte di tutte le nazioni (neutrali e Imperi) aumenterà di un punto e mezzo per turno per un anno intero (12 turni).",
+  "LTEXT_QUEST_COBRO_SIMON_BOLIVAR": "Abbiamo incassato la ricompensa per la missione 'Riforma dell'esercito', signore. Tutte le nostre unità di fanteria base sono state promosse al rango successivo e le loro file ripristinate a costo zero.",
+  "LTEXT_QUEST_AJENO_DERECHOSHUMANOS_SINPAIS": "La nazione: %s ha completato la missione 'Dichiarazione dei diritti dell'uomo' e ogni Impero ha perso il controllo di una nazione. Siccome non avevamo nazioni neutrali, il nostro Impero non è stato colpito."
+ }
+}

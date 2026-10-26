@@ -1,0 +1,30 @@
+{
+ "folder": "NBEstepa",
+ "lvl": "NBEstepa.lvl",
+ "minimap": "NBEstepa.tga",
+ "minimap_red": "NBEstepa.tga",
+ "template": "42",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_ESTEPA_ATACANTE_1": "Grass to the horizon, low hills and old burial mounds: nowhere to hide on this steppe. Use the gullies and the mounds well.",
+  "LTEXT_TEXTUISECUENCIAS_ESTEPA_ATACANTE_2": "The caravanserai by the river is the key to the road. Take it and hold it.",
+  "LTEXT_TEXTUISECUENCIAS_ESTEPA_DEFENSOR_1": "They come over the open steppe. Our horsemen will find them long before they reach the river.",
+  "LTEXT_TEXTUISECUENCIAS_ESTEPA_DEFENSOR_2": "Hold the caravanserai and its walls. Whoever holds it holds the crossing."
+ },
+ "provinces": [
+  "TURKESTAN",
+  "W_KOKAND",
+  "KAZAKHSTAN",
+  "W_MIDDLE_HORDE",
+  "W_TOBOLSK",
+  "W_IRKUTSK",
+  "W_INNER_MONGOLIA",
+  "W_OUTER_MONGOLIA",
+  "W_DZUNGARIA",
+  "W_QINGHAI",
+  "W_TIBET"
+ ],
+ "objective_key": "EGIPTO",
+ "preview_key": "ANATOLIA",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py steppe"
+}

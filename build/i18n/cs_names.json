@@ -1,0 +1,25 @@
+{
+ "Management\\TextNombresFlotas\\TextFlotasArabes.sb": {
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PERSIA": "Perská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ARABIA": "Arabská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_SHEIKHS": "Arabská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_TURKESTAN": "Bucharská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_CHECHNYA": "Čečenská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_QING": "Čínská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_JAPAN": "Japonská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_MARATHA": "Maráthská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ETHIOPIA": "Etiopská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_INDEPENDENT": "Východní flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PRINCES": "Indická flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_NILE": "Nilská flotila%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PACIFIC": "Polynéská flotila%s"
+ },
+ "Management\\TextHerederos.sb": {
+  "LTEXT_HEREDERO_JUG_INDEPENDENT_F_1": "Princezna Hyeon",
+  "LTEXT_HEREDERO_JUG_SHEIKHS_F_1": "Princezna Aisha",
+  "LTEXT_HEREDERO_JUG_NILE_F_1": "Princezna Ama",
+  "LTEXT_HEREDERO_JUG_NILE_M_1": "Princ Kwaku",
+  "LTEXT_HEREDERO_JUG_PACIFIC_F_1": "Princezna Rangi",
+  "LTEXT_HEREDERO_JUG_PACIFIC_M_1": "Princ Ruatara"
+ }
+}

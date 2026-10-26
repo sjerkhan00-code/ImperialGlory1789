@@ -1,0 +1,1082 @@
+{
+ "JUG_QING": {
+  "mode": "replace",
+  "country": 29,
+  "armies": [
+   {
+    "province": "zhili",
+    "mesh": "WZhili",
+    "officer": "CAPITAN",
+    "units": [
+     "CAPITAN",
+     "CAB_LANCERO",
+     "CAB_HUSAR",
+     "MILICIA",
+     "CANON"
+    ],
+    "note": "Eight Banners of the capital"
+   },
+   {
+    "province": "sichuan",
+    "mesh": "WSichuan",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Green Standard, veterans of the Jinchuan wars"
+   },
+   {
+    "province": "guangdong",
+    "mesh": "WGuangdong",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Liangguang army back from the Vietnam expedition (Dong Da, 1789)"
+   },
+   {
+    "province": "dzungaria",
+    "mesh": "WDzungaria",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_HUSAR",
+     "CAB_LANCERO"
+    ],
+    "note": "Ili banner garrison"
+   }
+  ]
+ },
+ "JUG_JAPAN": {
+  "mode": "replace",
+  "country": 30,
+  "armies": [
+   {
+    "province": "honshu",
+    "mesh": "WHonshu",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "TIRADOR",
+     "MILICIA",
+     "CAB_LANCERO"
+    ],
+    "note": "Shogunal hatamoto: teppo ashigaru, yari, mounted samurai"
+   },
+   {
+    "province": "kyushu",
+    "mesh": "WKyushuandShikoku",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "TIRADOR",
+     "MILICIA"
+    ],
+    "note": "Satsuma and the Nagasaki guard"
+   }
+  ]
+ },
+ "JUG_JOSEON": {
+  "mode": "replace",
+  "country": 31,
+  "armies": [
+   {
+    "province": "korea",
+    "mesh": "WKorea",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "TIRADOR",
+     "MILICIA",
+     "CANON"
+    ],
+    "note": "Five Army Camps of Hanseong"
+   }
+  ]
+ },
+ "JUG_MARATHA": {
+  "mode": "replace",
+  "country": 32,
+  "armies": [
+   {
+    "province": "pune",
+    "mesh": "WPoona",
+    "officer": "CAPITAN",
+    "units": [
+     "CAPITAN",
+     "CAB_ELITE",
+     "CAB_HUSAR",
+     "CAB_HUSAR",
+     "CANON"
+    ],
+    "note": "Peshwa's household horse (huzurat) and bargirs"
+   },
+   {
+    "province": "delhi",
+    "mesh": "WDelhi",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "FUSILERO",
+     "CANON"
+    ],
+    "note": "Scindia's brigades drilled by de Boigne"
+   },
+   {
+    "province": "malwa",
+    "mesh": "WMalwa",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_HUSAR",
+     "CAB_HUSAR"
+    ],
+    "note": "Holkar's light horse"
+   }
+  ]
+ },
+ "JUG_MYSORE": {
+  "mode": "replace",
+  "country": 33,
+  "armies": [
+   {
+    "province": "mysore",
+    "mesh": "WMysore",
+    "officer": "CAPITAN",
+    "units": [
+     "CAPITAN",
+     "FUSILERO",
+     "FUSILERO",
+     "CAB_HUSAR",
+     "CANON"
+    ],
+    "note": "Tipu's French-drilled infantry and silladar horse"
+   }
+  ]
+ },
+ "JUG_HYDERABAD": {
+  "mode": "replace",
+  "country": 34,
+  "armies": [
+   {
+    "province": "hyderabad",
+    "mesh": "WHyderabad",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "CAB_HUSAR",
+     "MILICIA"
+    ],
+    "note": "Nizam's army with Raymond's French corps"
+   }
+  ]
+ },
+ "JUG_PUNJAB": {
+  "mode": "replace",
+  "country": 35,
+  "armies": [
+   {
+    "province": "punjab",
+    "mesh": "WPunjab",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_HUSAR",
+     "CAB_HUSAR",
+     "MILICIA"
+    ],
+    "note": "Sikh misl cavalry (Dal Khalsa)"
+   }
+  ]
+ },
+ "JUG_NEPAL": {
+  "mode": "replace",
+  "country": 36,
+  "armies": [
+   {
+    "province": "nepal",
+    "mesh": "WNepal",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "TIRADOR",
+     "MILICIA"
+    ],
+    "note": "Gorkha companies (invading Tibet 1788-89)"
+   }
+  ]
+ },
+ "JUG_DURRANI": {
+  "mode": "replace",
+  "country": 37,
+  "armies": [
+   {
+    "province": "kabul",
+    "mesh": "WKabul",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_HUSAR",
+     "CAB_LANCERO",
+     "CAM_TIRADOR"
+    ],
+    "note": "Durrani horse and zamburak camel guns"
+   },
+   {
+    "province": "peshawar",
+    "mesh": "WPeshawar",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_HUSAR",
+     "TIRADOR"
+    ],
+    "note": "Winter-capital army, jezailchis"
+   }
+  ]
+ },
+ "JUG_BURMA": {
+  "mode": "replace",
+  "country": 38,
+  "armies": [
+   {
+    "province": "ava",
+    "mesh": "WAva",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR",
+     "CANON"
+    ],
+    "note": "Bodawpaya's royal army"
+   },
+   {
+    "province": "pegu",
+    "mesh": "WPegu",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Siam front (war of 1785-89)"
+   }
+  ]
+ },
+ "JUG_SIAM": {
+  "mode": "replace",
+  "country": 39,
+  "armies": [
+   {
+    "province": "siam",
+    "mesh": "WSiam",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR",
+     "CAB_HUSAR"
+    ],
+    "note": "Rama I's army that repelled the Burmese 1785-86"
+   }
+  ]
+ },
+ "JUG_VIETNAM": {
+  "mode": "replace",
+  "country": 40,
+  "armies": [
+   {
+    "province": "annam",
+    "mesh": "WAnnam",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR",
+     "CANON"
+    ],
+    "note": "Quang Trung's Tay Son army"
+   },
+   {
+    "province": "tonkin",
+    "mesh": "WTonkin",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Victors of Dong Da (Jan 1789)"
+   }
+  ]
+ },
+ "JUG_NGUYEN": {
+  "mode": "replace",
+  "country": 63,
+  "armies": [
+   {
+    "province": "cochin",
+    "mesh": "WSaigon",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "MILICIA"
+    ],
+    "note": "Nguyen Anh's army with French volunteers (Saigon 1788)"
+   }
+  ]
+ },
+ "JUG_MALAYA": {
+  "mode": "replace",
+  "country": 41,
+  "armies": [
+   {
+    "province": "malaya",
+    "mesh": "WMalaya",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Johor-Riau and Bugis levies"
+   }
+  ]
+ },
+ "JUG_BRUNEI": {
+  "mode": "replace",
+  "country": 42,
+  "armies": [
+   {
+    "province": "borneonord",
+    "mesh": "WNorthBorneo",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Sultan's levies"
+   }
+  ]
+ },
+ "JUG_MAORI": {
+  "mode": "replace",
+  "country": 43,
+  "armies": [
+   {
+    "province": "nznorth",
+    "mesh": "WNorthIsland",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "MILICIA"
+    ],
+    "note": "Taua war parties"
+   }
+  ]
+ },
+ "JUG_ETHIOPIA": {
+  "mode": "replace",
+  "country": 44,
+  "armies": [
+   {
+    "province": "ethiopia",
+    "mesh": "WEthiopia",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "CAB_LANCERO",
+     "TIRADOR"
+    ],
+    "note": "Ras' levies and highland horse"
+   }
+  ]
+ },
+ "JUG_OMAN": {
+  "mode": "replace",
+  "country": 45,
+  "armies": [
+   {
+    "province": "muscat",
+    "mesh": "WMuscat",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "CAM_LANCERO"
+    ],
+    "note": "Al Busaid tribesmen and Baluchi mercenaries"
+   },
+   {
+    "province": "swahili",
+    "mesh": "WZanzibarCoast",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Zanzibar garrison"
+   }
+  ]
+ },
+ "JUG_SENNAR": {
+  "mode": "replace",
+  "country": 46,
+  "armies": [
+   {
+    "province": "sennar",
+    "mesh": "WSennar",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_LANCERO",
+     "MILICIA"
+    ],
+    "note": "Funj armoured horse"
+   }
+  ]
+ },
+ "JUG_DARFUR": {
+  "mode": "replace",
+  "country": 47,
+  "armies": [
+   {
+    "province": "darfur",
+    "mesh": "WDarfur",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_LANCERO",
+     "CAM_LANCERO",
+     "MILICIA"
+    ],
+    "note": "Keira cavalry, conquerors of Kordofan 1785"
+   }
+  ]
+ },
+ "JUG_BORNU": {
+  "mode": "replace",
+  "country": 48,
+  "armies": [
+   {
+    "province": "bornu",
+    "mesh": "WBornu",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_LANCERO",
+     "MILICIA"
+    ],
+    "note": "Kanuri quilted cavalry"
+   }
+  ]
+ },
+ "JUG_SEGU": {
+  "mode": "replace",
+  "country": 49,
+  "armies": [
+   {
+    "province": "segu",
+    "mesh": "WSegu",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "CAB_HUSAR"
+    ],
+    "note": "Bambara tonjon"
+   }
+  ]
+ },
+ "JUG_ASHANTI": {
+  "mode": "replace",
+  "country": 50,
+  "armies": [
+   {
+    "province": "ashanti",
+    "mesh": "WAshanti",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "TIRADOR",
+     "TIRADOR",
+     "MILICIA"
+    ],
+    "note": "Asante musket armies"
+   }
+  ]
+ },
+ "JUG_OYO": {
+  "mode": "replace",
+  "country": 51,
+  "armies": [
+   {
+    "province": "oyo",
+    "mesh": "WOyoandDahomey",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_LANCERO",
+     "CAB_HUSAR",
+     "MILICIA"
+    ],
+    "note": "Oyo cavalry under Alaafin Abiodun"
+   }
+  ]
+ },
+ "JUG_KONGO": {
+  "mode": "replace",
+  "country": 52,
+  "armies": [
+   {
+    "province": "kongo",
+    "mesh": "WKongo",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Musketeers of Mbanza Kongo"
+   }
+  ]
+ },
+ "JUG_LUNDA": {
+  "mode": "replace",
+  "country": 53,
+  "armies": [
+   {
+    "province": "lunda",
+    "mesh": "WLunda",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "MILICIA"
+    ],
+    "note": "Mwata Yamvo's warriors"
+   }
+  ]
+ },
+ "JUG_BUGANDA": {
+  "mode": "replace",
+  "country": 54,
+  "armies": [
+   {
+    "province": "buganda",
+    "mesh": "WBuganda",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Kabaka's levies"
+   }
+  ]
+ },
+ "JUG_ROZVI": {
+  "mode": "replace",
+  "country": 55,
+  "armies": [
+   {
+    "province": "rozvi",
+    "mesh": "WRozvi",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Changamire warriors"
+   }
+  ]
+ },
+ "JUG_MADAGASCAR": {
+  "mode": "replace",
+  "country": 56,
+  "armies": [
+   {
+    "province": "madagascar",
+    "mesh": "WMadagascar",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Merina musketeers"
+   }
+  ]
+ },
+ "JUG_ABORIGINES": {
+  "mode": "replace",
+  "country": 57,
+  "armies": [
+   {
+    "province": "northaus",
+    "mesh": "WArnhemLand",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Clan warriors"
+   }
+  ]
+ },
+ "JUG_YEMEN": {
+  "mode": "replace",
+  "country": 58,
+  "armies": [
+   {
+    "province": "yemen",
+    "mesh": "WYemen",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ],
+    "note": "Zaydi tribal levies"
+   }
+  ]
+ },
+ "JUG_NGUNI": {
+  "mode": "replace",
+  "country": 59,
+  "armies": [
+   {
+    "province": "natal",
+    "mesh": "WNatal",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "MILICIA"
+    ],
+    "note": "Nguni regiments (pre-Shaka)"
+   }
+  ]
+ },
+ "JUG_BECHUANA": {
+  "mode": "replace",
+  "country": 60,
+  "armies": [
+   {
+    "province": "kalahari",
+    "mesh": "WKalahari",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Tswana mephato"
+   }
+  ]
+ },
+ "JUG_AHOM": {
+  "mode": "replace",
+  "country": 61,
+  "armies": [
+   {
+    "province": "assam",
+    "mesh": "WAssam",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Paik militia (Moamoria rebellion)"
+   }
+  ]
+ },
+ "JUG_TRAVANCORE": {
+  "mode": "replace",
+  "country": 62,
+  "armies": [
+   {
+    "province": "travancore",
+    "mesh": "WTravancore",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "MILICIA"
+    ],
+    "note": "De Lannoy-trained battalions, Nedumkotta lines"
+   }
+  ]
+ },
+ "JUG_FUTA": {
+  "mode": "replace",
+  "country": 64,
+  "armies": [
+   {
+    "province": "futa",
+    "mesh": "WFutaJallon",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_HUSAR",
+     "MILICIA"
+    ],
+    "note": "Fulani horse"
+   }
+  ]
+ },
+ "JUG_MOSSI": {
+  "mode": "replace",
+  "country": 65,
+  "armies": [
+   {
+    "province": "mossi",
+    "mesh": "WMossi",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_LANCERO",
+     "MILICIA"
+    ],
+    "note": "Mossi cavalry"
+   }
+  ]
+ },
+ "JUG_PAPUA": {
+  "mode": "replace",
+  "country": 66,
+  "armies": [
+   {
+    "province": "nguineaost",
+    "mesh": "WPapua",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Village warriors"
+   }
+  ]
+ },
+ "JUG_GRAN_BRETANYA": {
+  "mode": "append",
+  "country": 1,
+  "armies": [
+   {
+    "existing": true,
+    "province": "Inglaterra",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "FUSILERO"
+    ]
+   },
+   {
+    "existing": true,
+    "province": "Irlanda",
+    "units": [
+     "TENIENTE",
+     "TIRADOR"
+    ]
+   },
+   {
+    "province": "bengal",
+    "mesh": "WBengal",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "CANON"
+    ],
+    "note": "Bengal Army (Fort William)"
+   },
+   {
+    "province": "carnatic",
+    "mesh": "WMadras",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "CAB_DRAGON"
+    ],
+    "note": "Madras Army (Fort St George)"
+   },
+   {
+    "province": "bombay",
+    "mesh": "WBombay",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ],
+    "note": "Bombay Army"
+   },
+   {
+    "province": "nsw",
+    "mesh": "WNewSouthWales",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ],
+    "note": "New South Wales Marine Corps"
+   }
+  ]
+ },
+ "JUG_BATAVIA": {
+  "mode": "append",
+  "country": 18,
+  "armies": [
+   {
+    "existing": true,
+    "province": "Batavia",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ]
+   },
+   {
+    "province": "java",
+    "mesh": "WJava",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "MILICIA"
+    ],
+    "note": "VOC garrison of Batavia and native auxiliaries"
+   },
+   {
+    "province": "cape",
+    "mesh": "WCapeColony",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Cape burgher commandos"
+   },
+   {
+    "province": "ceylon",
+    "mesh": "WCeylon",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ],
+    "note": "VOC Ceylon garrison (Colombo, Trincomalee)"
+   }
+  ]
+ },
+ "JUG_PORTUGAL": {
+  "mode": "append",
+  "country": 12,
+  "armies": [
+   {
+    "existing": true,
+    "province": "Alentejo",
+    "units": [
+     "TENIENTE",
+     "TIRADOR",
+     "FUSILERO"
+    ]
+   },
+   {
+    "province": "angola",
+    "mesh": "WAngola",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Luanda garrison and guerra preta"
+   },
+   {
+    "province": "mozambique",
+    "mesh": "WMozambique",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Mozambique Island garrison"
+   }
+  ]
+ },
+ "JUG_ESPANYA": {
+  "mode": "append",
+  "country": 6,
+  "armies": [
+   {
+    "existing": true,
+    "province": "Castilla",
+    "units": [
+     "FUSILERO",
+     "TENIENTE",
+     "TIRADOR"
+    ]
+   },
+   {
+    "existing": true,
+    "province": "Cataluna",
+    "units": [
+     "TENIENTE",
+     "TIRADOR"
+    ]
+   },
+   {
+    "province": "luzon",
+    "mesh": "WLuzon",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO",
+     "MILICIA"
+    ],
+    "note": "Regimiento del Rey, Manila"
+   }
+  ]
+ },
+ "JUG_FRANCIA": {
+  "mode": "append",
+  "country": 2,
+  "armies": [
+   {
+    "existing": true,
+    "province": "Toulose",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ]
+   },
+   {
+    "existing": true,
+    "province": "IslaDeFrancia",
+    "units": [
+     "TENIENTE",
+     "MILICIA",
+     "TIRADOR"
+    ]
+   },
+   {
+    "existing": true,
+    "province": "Champagne",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ]
+   },
+   {
+    "province": "senegal",
+    "mesh": "WSenegal",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ],
+    "note": "Bataillon d'Afrique, Saint-Louis/Goree"
+   }
+  ]
+ },
+ "JUG_RUSIA": {
+  "mode": "append",
+  "country": 4,
+  "armies": [
+   {
+    "existing": true,
+    "province": "Kiev",
+    "units": [
+     "TENIENTE",
+     "TIRADOR"
+    ]
+   },
+   {
+    "existing": true,
+    "province": "Letonia",
+    "units": [
+     "TENIENTE",
+     "FUSILERO"
+    ]
+   },
+   {
+    "existing": true,
+    "province": "Minsk",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ]
+   },
+   {
+    "province": "tomsk",
+    "mesh": "WTobolsk",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "CAB_LANCERO",
+     "MILICIA"
+    ],
+    "note": "Siberian Cossacks and line battalion, Tobolsk"
+   },
+   {
+    "province": "irkutsk",
+    "mesh": "WIrkutsk",
+    "officer": "TENIENTE",
+    "units": [
+     "TENIENTE",
+     "MILICIA"
+    ],
+    "note": "Irkutsk/Kyakhta garrison"
+   },
+   {
+    "province": "Letonia",
+    "mesh": "Letonia",
+    "officer": "CAPITAN",
+    "units": [
+     "CAPITAN",
+     "GRANADERO",
+     "FUSILERO",
+     "CANON"
+    ],
+    "note": "Guards and the Army of Finland (Musin-Pushkin) covering St Petersburg in the Russo-Swedish War 1788-90 (added 2026-10-23: Sweden took the capital in turn 2)"
+   },
+   {
+    "province": "Kiev",
+    "mesh": "Kiev",
+    "officer": "CAPITAN",
+    "units": [
+     "CAPITAN",
+     "FUSILERO",
+     "CAB_LANCERO",
+     "CANON"
+    ],
+    "note": "Army of Ekaterinoslav (Potemkin, Suvorov) facing the Ottomans, Russo-Turkish War 1787-92 (added 2026-10-23)"
+   }
+  ]
+ },
+ "JUG_CHECHNYA": {
+  "mode": "replace",
+  "armies": [
+   {
+    "province": "chechenya",
+    "mesh": "Chechenya",
+    "officer": "CAPITAN",
+    "units": [
+     "CAPITAN",
+     "TIRADOR",
+     "TIRADOR",
+     "CAB_LANCERO",
+     "CAB_HUSAR"
+    ],
+    "note": "Sheikh Mansur's murids and mountain horsemen"
+   }
+  ]
+ }
+}

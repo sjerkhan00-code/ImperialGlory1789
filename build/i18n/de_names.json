@@ -1,0 +1,25 @@
+{
+ "Management\\TextNombresFlotas\\TextFlotasArabes.sb": {
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PERSIA": "Persische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ARABIA": "Arabische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_SHEIKHS": "Arabische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_TURKESTAN": "Turkestanische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_CHECHNYA": "Flotte Tschetscheniens%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_QING": "Chinesische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_JAPAN": "Japanische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_MARATHA": "Marathen-Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_ETHIOPIA": "Äthiopische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_INDEPENDENT": "Östliche Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PRINCES": "Indische Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_NILE": "Nil-Flotte%s",
+  "LTEXT_GESTION_NOMBRE_FLOTA_JUG_PACIFIC": "Pazifische Flotte%s"
+ },
+ "Management\\TextHerederos.sb": {
+  "LTEXT_HEREDERO_JUG_INDEPENDENT_F_1": "Fürstin Hyeon",
+  "LTEXT_HEREDERO_JUG_SHEIKHS_F_1": "Fürstin Aisha",
+  "LTEXT_HEREDERO_JUG_NILE_F_1": "Fürstin Ama",
+  "LTEXT_HEREDERO_JUG_NILE_M_1": "Fürst Kwaku",
+  "LTEXT_HEREDERO_JUG_PACIFIC_F_1": "Fürstin Rangi",
+  "LTEXT_HEREDERO_JUG_PACIFIC_M_1": "Fürst Ruatara"
+ }
+}

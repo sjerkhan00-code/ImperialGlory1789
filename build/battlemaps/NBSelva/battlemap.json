@@ -1,0 +1,34 @@
+{
+ "folder": "NBSelva",
+ "lvl": "NBSelva.lvl",
+ "minimap": "NBSelva.tga",
+ "minimap_red": "NBSelva.tga",
+ "template": "02",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_SELVA_ATACANTE_1": "Jungle closes in on every side, and the swamps by the river swallow men to the knee. Keep to the tracks and the clearings; the river can only be crossed at the bridges.",
+  "LTEXT_TEXTUISECUENCIAS_SELVA_ATACANTE_2": "The trading post stands in its clearing at the river mouth. Take it and hold it.",
+  "LTEXT_TEXTUISECUENCIAS_SELVA_DEFENSOR_1": "The enemy must cut his way through the jungle. Let the swamps and the river break up his columns.",
+  "LTEXT_TEXTUISECUENCIAS_SELVA_DEFENSOR_2": "Hold the trading post by the river mouth. Whoever holds it holds the river and its trade."
+ },
+ "provinces": [
+  "W_ACEH",
+  "W_SOUTH_SUMATRA",
+  "W_NORTH_BORNEO",
+  "W_SOUTH_BORNEO",
+  "W_CELEBES",
+  "W_MOLUCCAS",
+  "W_MINDANAO",
+  "W_TIMOR",
+  "W_NEW_GUINEA",
+  "W_PAPUA",
+  "W_MADAGASCAR",
+  "W_SIERRA_LEONE",
+  "W_IVORY_COAST",
+  "W_LOANGO",
+  "W_ZANZIBAR_COAST"
+ ],
+ "objective_key": "EGIPTO",
+ "preview_key": "ESCOCIA",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py jungle"
+}

@@ -1,0 +1,24 @@
+{
+ "folder": "NBJapon",
+ "lvl": "NBJapon.lvl",
+ "minimap": "NBJapon.tga",
+ "minimap_red": "NBJapon.tga",
+ "template": "16",
+ "texts": {
+  "LTEXT_TEXTUISECUENCIAS_JAPON_ATACANTE_1": "Wooded mountains close in on both valleys. Only two bridges cross the river below the castle: take the southern valley, or the pass over the hills to the northern bridge.",
+  "LTEXT_TEXTUISECUENCIAS_JAPON_ATACANTE_2": "The castle and its little town above the river fork are our objective. Storm them.",
+  "LTEXT_TEXTUISECUENCIAS_JAPON_DEFENSOR_1": "The river and the mountains guard us. Watch the two bridges and the pass through the woods.",
+  "LTEXT_TEXTUISECUENCIAS_JAPON_DEFENSOR_2": "Hold the castle and the houses beside it. While its walls stand, the valley is ours."
+ },
+ "provinces": [
+  "W_HONSHU",
+  "W_KYUSHU_AND_SHIKOKU",
+  "W_EZO",
+  "W_NEPAL",
+  "W_KASHMIR"
+ ],
+ "objective_key": "EGIPTO",
+ "preview_key": "HUNGRIA",
+ "rotacion": ".AT 0  .DF 180",
+ "recipe": "tools/lvl_region.py japan"
+}

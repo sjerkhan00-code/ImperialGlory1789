@@ -1,0 +1,6 @@
+{
+ "out_hash": "61db3cfa53acb1f591b6abf579f0a053321e404a",
+ "time": "2026-10-23 17:28:36",
+ "backup": "backups\\coastfit_20261023-172836",
+ "note": "base snapshots carry design.py lines (tools/art/oldarea/rebase_coastfit.py); hash = current files"
+}

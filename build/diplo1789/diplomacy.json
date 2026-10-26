@@ -1,0 +1,8460 @@
+{
+ "meta": {
+  "game": "Imperial Glory (2005), 1789 mod",
+  "variant": "historical",
+  "scale": "HOSTILIDAD 0..100, lower = friendlier; >=90 = war situation",
+  "default_hostility": 50.0,
+  "isolated_default": {
+   "JAPAN": 65.0,
+   "ETHIOPIA": 58.0
+  },
+  "player_order": [
+   "JUG_GRAN_BRETANYA",
+   "JUG_FRANCIA",
+   "JUG_AUSTRIA",
+   "JUG_PRUSIA",
+   "JUG_ESPANYA",
+   "JUG_OTOMANO",
+   "JUG_EGIPTO",
+   "JUG_DOS_SICILIAS",
+   "JUG_DINAMARCA",
+   "JUG_SUECIA",
+   "JUG_PORTUGAL",
+   "JUG_LOMBARDIA",
+   "JUG_PIAMONTE",
+   "JUG_EPAPALES",
+   "JUG_RHELVETICA",
+   "JUG_HANNOVER",
+   "JUG_BATAVIA",
+   "JUG_SAJONIA",
+   "JUG_POLONIA",
+   "JUG_MOLDAVIA",
+   "JUG_MARRUECOS",
+   "JUG_TUNEZ",
+   "JUG_TRIPOLITANIA",
+   "JUG_RUSIA",
+   "JUG_PERSIA",
+   "JUG_ARABIA",
+   "JUG_TURKESTAN",
+   "JUG_CHECHNYA",
+   "JUG_QING",
+   "JUG_JAPAN",
+   "JUG_MARATHA",
+   "JUG_ETHIOPIA",
+   "JUG_INDEPENDENT",
+   "JUG_PRINCES",
+   "JUG_SHEIKHS",
+   "JUG_NILE",
+   "JUG_PACIFIC"
+  ]
+ },
+ "defsIniciales": {
+  "files": [
+   "Game/GameModes/Gestion/defsInicialesJugadores.sb",
+   "Game/GameModes/Gestion/defsInicialesLocalEasy.sb",
+   "Game/GameModes/Gestion/defsInicialesLocalMedium.sb",
+   "Game/GameModes/Gestion/defsInicialesLocalHard.sb"
+  ],
+  "format": ".JUG_A [ .JUG_B [ .HOSTILIDAD v .ESTADO_DIPLOMATICO [ .ESTADO GUERRA|PROTECCION_MUTUA|PERMISO_PASO .TURNOS n ] ] ]",
+  "pairs": [
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_AUSTRIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_BATAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_CHECHNYA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_DINAMARCA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_DOS_SICILIAS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_EGIPTO",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Hejaz"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 75.0,
+    "source": "1789",
+    "why": "Wahhabi First Saudi State defies the Porte"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 60.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ARABIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_BATAVIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_CHECHNYA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_DINAMARCA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_DOS_SICILIAS",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Maria Carolina, sister of Joseph II"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_EGIPTO",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "Josephinism vs the Papacy"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Franco-Austrian alliance 1756, still formally in force (Marie-Antoinette)"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 35.0,
+    "source": "1789",
+    "why": "Austrian Lombardy (Habsburg possession)"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 92.0,
+    "source": "1789",
+    "why": "Austro-Turkish War 1788-91 (GUERRA)"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Habsburg-Hohenzollern rivalry; Prussian mobilisation, Reichenbach 1790"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "neutral neighbour"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 30.0,
+    "source": "1789",
+    "why": "Austro-Russian alliance 1781; joint war on the Ottomans"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Sweden at war with Austria's ally"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_AUSTRIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_CHECHNYA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_DINAMARCA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_DOS_SICILIAS",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_EGIPTO",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "France abandoned the Dutch Patriots 1787"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 35.0,
+    "source": "1789",
+    "why": "Triple Alliance 1788; Orangist restoration 1787 backed by GB/Prussia"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 35.0,
+    "source": "1789",
+    "why": "Dejima: the only European trade with Japan"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "indirect (GB system)"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 35.0,
+    "source": "1789",
+    "why": "Triple Alliance 1788; Prussian invasion restored the Stadtholder 1787"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_QING",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Canton trade (VOC)"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_BATAVIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_DINAMARCA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_DOS_SICILIAS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_EGIPTO",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 25.0,
+    "source": "1789",
+    "why": "Ottoman backing from 1787 via the Pashas of Anapa; joint operations 1788-91"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 88.0,
+    "source": "1789",
+    "why": "Sheikh Mansur's holy war 1785-91 (hostile, not at war: one-province nation)"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_CHECHNYA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_DOS_SICILIAS",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_EGIPTO",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_QING",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Danish Asiatic Company at Canton"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 35.0,
+    "source": "1789",
+    "why": "alliance 1773; Denmark attacked Sweden for Russia 1788"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Theatre War 1788 (armistice)"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DINAMARCA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_EGIPTO",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Naples refuses the chinea tribute 1788"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Bourbon cousins"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Acton ministry leaned to Britain"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_POLONIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_RUSIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_SUECIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Barbary corsairs"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 75.0,
+    "source": "1789",
+    "why": "Barbary corsairs"
+   },
+   {
+    "a": "JUG_DOS_SICILIAS",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_EPAPALES",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Mamluk Egypt under Ottoman suzerainty; Ottoman expedition 1786"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_POLONIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_RUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_SUECIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EGIPTO",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_ESPANYA",
+    "hostilidad": 45.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 47.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_POLONIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_RUSIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_SUECIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Barbary corsairs"
+   },
+   {
+    "a": "JUG_EPAPALES",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_ETHIOPIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 30.0,
+    "source": "1789",
+    "why": "Third Family Compact 1761 (Bourbon)"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 65.0,
+    "source": "1789",
+    "why": "Gibraltar; Nootka Sound crisis 1789-90"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 55.0,
+    "source": "1789",
+    "why": "peace since 1780; Ceuta besieged again 1790-91"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "peace treaty 1782"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "San Ildefonso 1777 / El Pardo 1778"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 60.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "Canton/Manila trade"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_ESPANYA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_FRANCIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 58.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 65.0,
+    "source": "1789",
+    "why": "Ottoman Massawa"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "16th-century alliance"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_QING",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_ETHIOPIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 58.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_GRAN_BRETANYA",
+    "hostilidad": 65.0,
+    "source": "1789",
+    "why": "hereditary rivals; American war 1778-83"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "traditional Franco-Ottoman friendship"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 47.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "Canton trade"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Swiss regiments in French service; perpetual alliance"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "French subsidies to Gustav III"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_FRANCIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_HANNOVER",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "1789",
+    "why": "sakoku: only Dutch and Chinese admitted"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Treaty of Salbai 1782; Marathas join GB against Tipu 1790"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Gibraltar supply treaties"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "GB+Prussia mediating for the Porte (Sistova/Jassy)"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 30.0,
+    "source": "1789",
+    "why": "Anglo-Portuguese Alliance (Windsor 1386, renewed 1703)"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 35.0,
+    "source": "1789",
+    "why": "Triple Alliance 1788"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "Canton system trade; Macartney embassy 1793"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Armed Neutrality 1780; Ochakov crisis 1791"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "GB/Prussia forced Denmark out of the war on Sweden 1788"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_GRAN_BRETANYA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_INDEPENDENT",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_JAPAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "Ablai Khan paid tribute to Qing"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_RUSIA",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Kazakh Junior Zhuz under nominal Russian suzerainty; Srym Datuly revolt 1783-97"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_HANNOVER",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Kazakh-Kokand/Bukhara frontier"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_JAPAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_INDEPENDENT",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_LOMBARDIA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_MARATHA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_PERSIA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_POLONIA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 75.0,
+    "source": "1789",
+    "why": "expelled 1639"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_QING",
+    "hostilidad": 55.0,
+    "source": "1789",
+    "why": "Chinese junk trade at Nagasaki"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_RUSIA",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Laxman mission 1792 refused"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_SUECIA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_JAPAN",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 65.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_MARATHA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_LOMBARDIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_MARRUECOS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 55.0,
+    "source": "1789",
+    "why": "Bassein lost 1739"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_QING",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARATHA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_MOLDAVIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_POLONIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_RUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_SUECIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_MARRUECOS",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_NILE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_MOLDAVIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_OTOMANO",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_NILE",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_PACIFIC",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_PERSIA",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Ottoman-Persian frontier wars"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_POLONIA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "common enemy Russia"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Prussian-Ottoman alliance January 1790"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_RUSIA",
+    "hostilidad": 95.0,
+    "source": "1789",
+    "why": "Russo-Turkish War 1787-92 (GUERRA)"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_SUECIA",
+    "hostilidad": 30.0,
+    "source": "1789",
+    "why": "Swedish-Ottoman alliance 11 July 1789"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "autonomous Ottoman regency (Karamanli)"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "autonomous Ottoman regency"
+   },
+   {
+    "a": "JUG_OTOMANO",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_PERSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PACIFIC",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_PIAMONTE",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_POLONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 75.0,
+    "source": "1789",
+    "why": "Georgia under Russian protection (Georgievsk 1783)"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PERSIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 65.0,
+    "source": "1789",
+    "why": "Bukhara took Merv 1785"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_POLONIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_RUSIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_SUECIA",
+    "hostilidad": 45.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Sardinian coast raided"
+   },
+   {
+    "a": "JUG_PIAMONTE",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_PORTUGAL",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 40.0,
+    "source": "1789",
+    "why": "Polish-Prussian alliance March 1790"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 70.0,
+    "source": "1789",
+    "why": "Great Sejm 1788-92 breaks with Russia"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 45.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_POLONIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_PRINCES",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "indirect (GB system)"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_QING",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Macau"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_RUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_SUECIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PORTUGAL",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_PRUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_RUSIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRINCES",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_QING",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 65.0,
+    "source": "1789",
+    "why": "Prussia backs Poland, Sweden and the Porte against Russia"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 40.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_PRUSIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_RHELVETICA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_RUSIA",
+    "hostilidad": 60.0,
+    "source": "1789",
+    "why": "Kyakhta trade closed 1785-92"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_SUECIA",
+    "hostilidad": 45.0,
+    "source": "1789",
+    "why": "Swedish East India Company at Canton"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_QING",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "1789",
+    "why": "Kokand a nominal Qing tributary"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_RUSIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RHELVETICA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RUSIA",
+    "b": "JUG_SAJONIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RUSIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_RUSIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 92.0,
+    "source": "1789",
+    "why": "Russo-Swedish War 1788-90 (GUERRA)"
+   },
+   {
+    "a": "JUG_RUSIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_RUSIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_RUSIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 55.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_SAJONIA",
+    "b": "JUG_SHEIKHS",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SAJONIA",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SAJONIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SAJONIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SAJONIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SHEIKHS",
+    "b": "JUG_SUECIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SHEIKHS",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SHEIKHS",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SHEIKHS",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_SUECIA",
+    "b": "JUG_TRIPOLITANIA",
+    "hostilidad": 51.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_SUECIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 49.0,
+    "source": "original"
+   },
+   {
+    "a": "JUG_SUECIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_TRIPOLITANIA",
+    "b": "JUG_TUNEZ",
+    "hostilidad": 50.0,
+    "source": "1789"
+   },
+   {
+    "a": "JUG_TRIPOLITANIA",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   },
+   {
+    "a": "JUG_TUNEZ",
+    "b": "JUG_TURKESTAN",
+    "hostilidad": 50.0,
+    "source": "default"
+   }
+  ],
+  "treaties": [
+   {
+    "anchor": "JUG_GRAN_BRETANYA",
+    "other": "JUG_PORTUGAL",
+    "estado": "PROTECCION_MUTUA",
+    "turnos": 12,
+    "why": "Anglo-Portuguese Alliance"
+   },
+   {
+    "anchor": "JUG_GRAN_BRETANYA",
+    "other": "JUG_PRUSIA",
+    "estado": "PROTECCION_MUTUA",
+    "turnos": 12,
+    "why": "Triple Alliance 1788"
+   },
+   {
+    "anchor": "JUG_GRAN_BRETANYA",
+    "other": "JUG_BATAVIA",
+    "estado": "PROTECCION_MUTUA",
+    "turnos": 12,
+    "why": "Triple Alliance 1788"
+   },
+   {
+    "anchor": "JUG_FRANCIA",
+    "other": "JUG_ESPANYA",
+    "estado": "PROTECCION_MUTUA",
+    "turnos": 12,
+    "why": "Family Compact"
+   },
+   {
+    "anchor": "JUG_RUSIA",
+    "other": "JUG_AUSTRIA",
+    "estado": "PROTECCION_MUTUA",
+    "turnos": 12,
+    "why": "Austro-Russian alliance 1781"
+   },
+   {
+    "anchor": "JUG_OTOMANO",
+    "other": "JUG_SUECIA",
+    "estado": "PROTECCION_MUTUA",
+    "turnos": 12,
+    "why": "Swedish-Ottoman treaty July 1789"
+   },
+   {
+    "anchor": "JUG_OTOMANO",
+    "other": "JUG_EGIPTO",
+    "estado": "PERMISO_PASO",
+    "turnos": 8,
+    "why": "Ottoman suzerainty over Egypt"
+   },
+   {
+    "anchor": "JUG_AUSTRIA",
+    "other": "JUG_LOMBARDIA",
+    "estado": "PERMISO_PASO",
+    "turnos": 8,
+    "why": "Habsburg Lombardy"
+   },
+   {
+    "anchor": "JUG_RUSIA",
+    "other": "JUG_OTOMANO",
+    "estado": "GUERRA",
+    "turnos": 0,
+    "why": "Russo-Turkish War 1787-92"
+   },
+   {
+    "anchor": "JUG_AUSTRIA",
+    "other": "JUG_OTOMANO",
+    "estado": "GUERRA",
+    "turnos": 0,
+    "why": "Austro-Turkish War 1788-91"
+   },
+   {
+    "anchor": "JUG_RUSIA",
+    "other": "JUG_SUECIA",
+    "estado": "GUERRA",
+    "turnos": 0,
+    "why": "Russo-Swedish War 1788-90"
+   }
+  ],
+  "blocks": {
+   "JUG_GRAN_BRETANYA": {
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 35.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PROTECCION_MUTUA",
+      "TURNOS": 12
+     }
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 30.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PROTECCION_MUTUA",
+      "TURNOS": 12
+     }
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 35.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PROTECCION_MUTUA",
+      "TURNOS": 12
+     }
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_FRANCIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 30.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PROTECCION_MUTUA",
+      "TURNOS": 12
+     }
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 47.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 47.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_AUSTRIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 92.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "GUERRA"
+     }
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 35.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PERMISO_PASO",
+      "TURNOS": 8
+     }
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 30.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_PRUSIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_ESPANYA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 30.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_OTOMANO": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 92.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 40.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PERMISO_PASO",
+      "TURNOS": 8
+     }
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 30.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PROTECCION_MUTUA",
+      "TURNOS": 12
+     }
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 95.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 25.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_EGIPTO": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 40.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PERMISO_PASO",
+      "TURNOS": 8
+     }
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_DOS_SICILIAS": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_DINAMARCA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_SUECIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 30.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 92.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_PORTUGAL": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 30.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_LOMBARDIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 35.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PERMISO_PASO",
+      "TURNOS": 8
+     }
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_PIAMONTE": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_EPAPALES": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 47.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_RHELVETICA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_HANNOVER": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_BATAVIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_SAJONIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_POLONIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 47.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_MOLDAVIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_MARRUECOS": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_TUNEZ": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_TRIPOLITANIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 40.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_RUSIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 30.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "PROTECCION_MUTUA",
+      "TURNOS": 12
+     }
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 95.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "GUERRA"
+     }
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 92.0,
+     "ESTADO_DIPLOMATICO": {
+      "ESTADO": "GUERRA"
+     }
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 51.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 49.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 88.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_PERSIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_ARABIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_TURKESTAN": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_CHECHNYA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 25.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 88.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_QING": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 60.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_JAPAN": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 75.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 35.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 70.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_MARATHA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_ETHIOPIA": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 55.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 45.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 65.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 58.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_INDEPENDENT": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_PRINCES": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_SHEIKHS": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_NILE": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PACIFIC": {
+     "HOSTILIDAD": 50.0
+    }
+   },
+   "JUG_PACIFIC": {
+    "JUG_GRAN_BRETANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_FRANCIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_AUSTRIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ESPANYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_OTOMANO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EGIPTO": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DOS_SICILIAS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_DINAMARCA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SUECIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PORTUGAL": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_LOMBARDIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PIAMONTE": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_EPAPALES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RHELVETICA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_HANNOVER": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_BATAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SAJONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_POLONIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MOLDAVIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARRUECOS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TUNEZ": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TRIPOLITANIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_RUSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PERSIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ARABIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_TURKESTAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_CHECHNYA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_QING": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_JAPAN": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_MARATHA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_ETHIOPIA": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_INDEPENDENT": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_PRINCES": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_SHEIKHS": {
+     "HOSTILIDAD": 50.0
+    },
+    "JUG_NILE": {
+     "HOSTILIDAD": 50.0
+    }
+   }
+  }
+ },
+ "ai_and_rules": {
+  "Game/GameModes/Gestion/IA/Default/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.32,
+   "PORCENTAJE_ECONOMICO": 0.3,
+   "PORCENTAJE_DIPLOMATICO": 0.38,
+   "PORCENTAJE_TECNOLOGICO": 0.0
+  },
+  "Game/GameModes/Gestion/IA/Inglaterra/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.18,
+   "PORCENTAJE_ECONOMICO": 0.3,
+   "PORCENTAJE_DIPLOMATICO": 0.35,
+   "PORCENTAJE_TECNOLOGICO": 0.17
+  },
+  "Game/GameModes/Gestion/IA/Francia/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.22,
+   "PORCENTAJE_ECONOMICO": 0.28,
+   "PORCENTAJE_DIPLOMATICO": 0.4,
+   "PORCENTAJE_TECNOLOGICO": 0.1
+  },
+  "Game/GameModes/Gestion/IA/Austria/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.35,
+   "PORCENTAJE_ECONOMICO": 0.2,
+   "PORCENTAJE_DIPLOMATICO": 0.37,
+   "PORCENTAJE_TECNOLOGICO": 0.08
+  },
+  "Game/GameModes/Gestion/IA/Prusia/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.33,
+   "PORCENTAJE_ECONOMICO": 0.18,
+   "PORCENTAJE_DIPLOMATICO": 0.32,
+   "PORCENTAJE_TECNOLOGICO": 0.17
+  },
+  "Game/GameModes/Gestion/IA/Rusia/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.38,
+   "PORCENTAJE_ECONOMICO": 0.26,
+   "PORCENTAJE_DIPLOMATICO": 0.28,
+   "PORCENTAJE_TECNOLOGICO": 0.08
+  },
+  "Game/GameModes/Gestion/IA/Aislado/IADefsPresidente.sb": {
+   "PORCENTAJE_MILITAR": 0.45,
+   "PORCENTAJE_ECONOMICO": 0.45,
+   "PORCENTAJE_DIPLOMATICO": 0.1,
+   "PORCENTAJE_TECNOLOGICO": 0.0
+  },
+  "Game/GameModes/Gestion/IA/IADefs.sb": {
+   "append_entries": [
+    "JUG_JAPAN",
+    "JUG_ETHIOPIA"
+   ],
+   "profile": "Game/GameModes/Gestion/IA/Aislado/IADefsPresidente.sb"
+  },
+  "Game/GameModes/Gestion/IA/Default/IADefsMinistroDiplomatico.sb": [
+   {
+    "pattern": "(\\.PERMISO_DE_PASO\\s+)40\\.0",
+    "new": "30.0"
+   },
+   {
+    "pattern": "(\\.MEJORA_RELACIONES\\s+)300\\.0",
+    "new": "200.0"
+   },
+   {
+    "pattern": "(\\.ALIANZA_DEFENSIVA\\s+)40\\.0",
+    "new": "25.0"
+   },
+   {
+    "pattern": "(\\.COALICION\\s+)40\\.0",
+    "new": "30.0"
+   },
+   {
+    "pattern": "(\\.PERMISO_DE_PASO\\s+)200\\b",
+    "new": "150"
+   },
+   {
+    "pattern": "(\\.MEJORA_RELACIONES\\s+)500\\b",
+    "new": "350"
+   },
+   {
+    "pattern": "(\\.ALIANZA_DEFENSIVA\\s+)200\\b",
+    "new": "150"
+   },
+   {
+    "pattern": "(\\.MODIFICADOR_POR_RELACION\\s+)400\\.0",
+    "new": "300.0"
+   },
+   {
+    "pattern": "(\\.NUMERO_RECHAZOS_PARA_BLOQUEO\\s+)1\\b",
+    "new": "2"
+   },
+   {
+    "pattern": "(\\.TURNOS_BASE_BLOQUEO\\s+)6\\b",
+    "new": "3"
+   },
+   {
+    "pattern": "(\\.MODIFICADOR_TURNOS_BLOQUEO\\s+)1\\.5",
+    "new": "1.25"
+   },
+   {
+    "pattern": "(\\.DURACION_MAXIMA_BLOQUEO\\s+)30\\b",
+    "new": "12"
+   }
+  ],
+  "Game/GameModes/Gestion/Reglas/DefReglasGenerales.sb": [
+   {
+    "pattern": "(\\.PERMISO_PASO\\s+)0\\.5\\b",
+    "new": "1.5"
+   },
+   {
+    "pattern": "(\\.PROTECCION_MUTUA\\s+)2\\.5\\b",
+    "new": "5.0"
+   },
+   {
+    "pattern": "(\\.TRATO_COMERCIAL_ESPECIAL\\s+)0\\.1\\b",
+    "new": "1.0"
+   }
+  ],
+  "Game/GameModes/Gestion/Reglas/DefReglasComercio.sb": [
+   {
+    "pattern": "(\\.BONUS_AMISTAD_TURNO_RUTA_SIMPLE\\s+)0\\.0\\b",
+    "new": "0.1"
+   },
+   {
+    "pattern": "(\\.BONUS_AMISTAD_TURNO_RUTA_DOBLE\\s+)0\\.0\\b",
+    "new": "0.2"
+   }
+  ]
+ }
+}
